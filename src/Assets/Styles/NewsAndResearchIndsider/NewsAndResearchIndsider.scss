@@ -1,0 +1,483 @@
+@import "./../Variables/Variables.scss";
+
+.newsandresearchinsiderimg {
+  // background: url(../../Images/NewsAndResearchInsider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  min-height: 25rem;
+}
+.contactFormLine {
+  display: flex !important;
+}
+.h3heading {
+  color: #ed3125 !important;
+  font-size: 22px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  margin-top: 62px !important;
+}
+.h3desc {
+  color: #000 !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-top: 23px !important;
+}
+.authoredby {
+  color: #fff !important;
+  font-size: 24px !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+.ShortLongReadBtn{
+  width: 120px !important;
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  border-radius: 50px !important;
+}
+.newsandresearchinsiderbannerheading {
+  color: #fff !important;
+  font-size: 3.125rem !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 60px !important;
+}
+
+.newsandresearchbannerdescription {
+  color: #fff !important;
+  font-size: 1.5rem !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  margin-top: 20px !important;
+}
+
+.subscribeBtnBox {
+  height: 45px;
+  margin-top: 20px !important;
+  width: 550px;
+}
+
+.subscribeInput {
+  height: 45px;
+  border: 0px;
+  font-size: 1.125rem;
+}
+
+.subscribeInput:focus {
+  outline: none;
+}
+
+.subscribeBtn {
+  height: 45px !important;
+  color: #fff !important;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+  text-transform: capitalize !important;
+  // width: 380px !important;
+}
+
+.newsandresearchinsidersubheading {
+  color: #ed3125 !important;
+  font-size: 2.25rem !important;
+  margin-top: 78px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+.newsandresearchinsiderdes1 {
+  color: #ef4b40 !important;
+  font-size: 1.125rem !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+.newsandresearchinsiderdes2 {
+  color: #000 !important;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+.newsandresearchinsiderdiv2 {
+  margin-top: 19px !important;
+  text-align: justify !important;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+.newsandresearchinsiderdiv1 {
+  margin-top: 41.63px !important;
+}
+.tablecontainer {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 48px !important;
+  padding: 40px !important;
+}
+.tablecontainerdata {
+  color: #ed3125 !important ;
+  font-size: 1.375rem !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 25px !important;
+}
+.tablecontainerheading {
+  color: #ed3125 !important;
+  font-size: 2.25rem !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+.newsandresearchinsiderrefrences {
+  color: #ed3125 !important;
+  font-size: 2rem !important;
+  margin-top: 26px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+.tabledescription {
+  margin-top: 72px !important;
+}
+.tabledescriptionheading {
+  color: #ed3125 !important;
+  font-size: 1.375rem !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+}
+sup{
+  position: absolute !important;
+  margin-top: -5px !important;
+  margin-left: -2px !important;
+}
+.discleemer{
+  color: $blackColor;
+font-family: Daikon;
+font-size: 14px;
+font-style: italic;
+font-weight: 350;
+line-height: 16px;
+}
+.tabledescriptionpara {
+  color: #000 !important;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-top: 23px !important;
+}
+
+.inputBoxContactusNewsAndResearch {
+  border: 0px;
+  border-bottom: 2px solid $redColor !important;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.inputBoxContactusNewsAndResearch::placeholder {
+  color: #000 !important;
+  font-family: Inter !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: normal !important;
+}
+.inputBoxContactusNewsAndResearch:focus {
+  outline: none;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  border: 0px !important;
+  outline: none;
+}
+
+.belowinput {
+  margin-top: 30px !important;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.newsandresearchinsiderinput {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: normal !important;
+  letter-spacing: -0.03em;
+  // margin-left: 20px !important;
+  // width: 30% !important;
+}
+.newsresearchcontactbutton {
+  color: #fff !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  background: #ed3125 !important;
+  width: 285.09px !important;
+  height: 53.933px !important;
+  margin-left: 61px !important;
+}
+
+.checkboxcontent {
+  color: #000 !important;
+  font-family: Inter !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: normal !important;
+}
+.checkboxdiv {
+  display: flex !important;
+}
+.contentimage {
+  width: 817.776px !important;
+  height: 361px !important;
+}
+.imagediv {
+  display: flex !important;
+  margin-top: 10px !important;
+  justify-content: center !important;
+}
+
+.newsandresearchinsiderrefrenceslink,
+.newsandresearchinsiderrefrenceslink a {
+  color: #ef4b40 !important;
+  font-size: 18px !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  // text-decoration-line: underline !important;
+  margin-top: 42px !important;
+}
+
+.orderdList {
+  display: flex !important;
+  // padding: 5px !important;
+  justify-content: space-around !important;
+}
+
+.formcontrolplaceholder {
+  display: inline !important;
+  color: black !important;
+}
+.tabledescriptionpara img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+@media screen and (max-width: 900px) {
+  .tabledescriptionpara p span,
+  .tabledescriptionpara p em {
+    font-size: 16px !important;
+  }
+  .newsandresearchinsiderdes2 p span,
+  .newsandresearchinsiderdes2 p em {
+    font-size: 16px !important;
+  }
+  .belowinput {
+    display: inline !important;
+    justify-content: space-evenly;
+  }
+  .newsandresearchinsiderrefrenceslink {
+    color: #ef4b40 !important;
+    font-size: 18px !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    text-decoration-line: underline !important;
+    margin-top: 16px !important;
+    padding: 10px !important;
+  }
+  .authoredby {
+    color: #fff !important;
+    font-size: 1rem !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+  .newsandresearchbannerdescription {
+    color: #fff !important;
+    font-size: 1rem !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    margin-top: 20px !important;
+  }
+  .orderdList {
+    display: inline !important;
+    font-size: 1rem !important;
+    padding: 5px !important;
+  }
+  .newsandresearchinsiderrefrences {
+    color: #ed3125 !important;
+    font-size: 1.8rem !important;
+    margin-top: 0px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+  }
+  .imagediv {
+    margin-top: 0px !important;
+    padding: 0px !important;
+  }
+  .contentimg {
+    width: 400px !important;
+    height: 400px !important;
+    margin-top: -86px !important;
+    padding: 0px !important;
+  }
+
+  .tablecontainer {
+    border-radius: 10px !important;
+    background: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1) !important;
+    margin-top: 20px !important;
+    padding: 40px !important;
+  }
+  .captach {
+    margin-top: 20px !important;
+  }
+  .checkboxdiv {
+    margin-top: 20px !important;
+    padding: 0px !important;
+  }
+  .newsandresearchinsiderinput {
+    color: black !important;
+    font-size: 22px !important;
+    line-height: 150% !important;
+    letter-spacing: -0.03em !important;
+    margin-left: 0px !important;
+  }
+  .checkboxcontent {
+    color: #000 !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    display: inline !important;
+    word-spacing: normal !important;
+  }
+  .newsresearchcontactbutton {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    background: #ed3125 !important;
+    width: 285.09px !important;
+    height: 45px !important;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+  }
+
+  .newsandresearchinsiderbannerheading {
+    color: #fff !important;
+    font-size: 1.688rem !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 40px !important;
+  }
+  .newsandresearchinsiderimg {
+    min-height: 19rem;
+  }
+  .newsandresearchinsidersubheading {
+    color: #ed3125 !important;
+    font-size: 1.8rem !important;
+    margin-top: 26px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+  }
+  .newsandresearchinsiderdiv1 {
+    margin-top: 21.63px !important;
+  }
+  .newsandresearchinsiderdes1 {
+    color: #ef4b40 !important;
+    font-size: 1rem !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+  .newsandresearchinsiderdes2 {
+    color: #000 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: justify !important;
+  }
+  .tablecontainer {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 10px !important;
+    padding: 21px !important;
+  }
+  .tablecontainerheading {
+    color: #ed3125 !important;
+    font-size: 1.625rem !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+  }
+  .tablecontainerdata {
+    color: #ed3125 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 25px !important;
+  }
+  .pressreleasesubheading1 {
+    color: #000;
+    margin-top: 16px !important;
+    font-size: 1.125rem !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+  .iconcontainer {
+    margin-top: 15px !important;
+  }
+  .tabledescription {
+    margin-top: 28px !important;
+  }
+  .tabledescriptionpara {
+    color: #000 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    margin-top: 23px !important;
+    text-align: justify !important;
+  }
+  .tabledescriptionheading {
+    color: #ed3125 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+  }
+  .subscribeBtn {
+    height: 45px !important;
+    color: #fff !important;
+    font-size: 0.938rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    letter-spacing: -0.54px !important;
+    // width: 212px !important;
+  }
+  .subscribeBtnBox {
+    height: 45px;
+    margin-top: 20px !important;
+    // width: 355px !important;
+  }
+}

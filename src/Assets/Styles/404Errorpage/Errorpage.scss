@@ -1,0 +1,52 @@
+@import "./../Variables/Variables.scss";
+
+.ErropageRedheading{
+    font-size: 2.5rem !important;
+    color: $redColor;
+    font-weight: 700 !important;
+    margin-top: 0.5rem !important;
+    line-height: normal !important;
+}
+
+.ErropageBlacktext{
+    font-size: 1.375rem !important;
+    font-weight: 400 !important;
+    margin-top: 0.5rem !important;
+    line-height: normal !important;
+}
+
+.ErropageRedtext{
+    font-size: 1.625rem !important;
+    font-weight: 400 !important;
+    margin-top: 0.5rem !important;
+    color: $redColor;
+    line-height: normal !important;
+}
+
+.ErropageLink{
+    color: $redColor;
+}
+
+// .errorImage404{
+//     height: 45vh;
+// }
+
+@media screen and (max-width: 600px) {
+    .ErropageRedheading {
+        font-size: 1.5rem !important;
+        color: #ED3125;
+        font-weight: 700 !important;
+        margin-top: 0.9rem !important;
+    }
+    .ErropageBlacktext {
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        margin-top: 0.5rem !important;
+    }
+    .ErropageRedtext {
+        font-size: 0.9rem !important;
+        font-weight: 400 !important;
+        margin-top: 0.5rem !important;
+        color: #ED3125;
+    }
+}

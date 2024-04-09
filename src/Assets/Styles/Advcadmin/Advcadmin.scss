@@ -1,0 +1,541 @@
+@import "./../Variables/Variables.scss";
+
+.advcadminbannerimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding-left: 15.3125% !important;
+  padding-right: 15.3125% !important;
+}
+
+.advcadminbannerimgheading {
+  font-weight: 500 !important;
+  line-height: 57.6px !important;
+  font-size: 3rem !important;
+  color: $whiteColor;
+  line-height: 3.75rem !important;
+  margin-bottom: 1.25rem !important;
+  font-family: Inter !important;
+}
+
+.advcadminbannerimgdesc {
+  font-size: 1.375rem !important;
+  color: $whiteColor;
+  font-family: Inter !important;
+}
+
+.advcadmincount {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem !important;
+  // line-height: 5.875rem;
+  color: $whiteColor;
+  line-height: 54px !important;
+}
+
+.advcadmincountText {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  line-height: 36px !important;
+  color: $whiteColor;
+  font-family: Inter !important;
+}
+
+.advcadminourclients {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $redColor;
+}
+
+.advcadmintextfieldstyle {
+  height: 50px !important;
+  outline: none !important;
+  margin-bottom: 20px !important;
+  width: 48.027% !important;
+}
+
+.advcadmintextfieldstylefull {
+  height: 120px !important;
+  outline: none !important;
+  margin-top: 26px !important;
+  width: 32% !important;
+}
+
+// .advcadmingetintouchcheckbox{
+//   width: 30%;
+//   margin-left: 5%;
+// }
+
+.advcadminsendmsgBtn {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  width: 20.027%;
+  display: block !important;
+  margin: auto !important;
+  height: 50px;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-size: 1rem !important;
+  transition: 0.4s !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+
+.advcadminContactustermsofusage {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+}
+
+.advcadminboxtextheading {
+  font-size: 1.5rem;
+  font-weight: 500 !important;
+}
+
+.advcadminboxtextdesc {
+  font-size: 1rem;
+  font-weight: 400 !important;
+}
+
+.advcadminboxtext {
+  padding: 3%;
+  width: 50%;
+  height: 400px;
+}
+
+.advcadminboximage {
+  height: 400px;
+  border-radius: 15% 0%;
+  width: 50%;
+}
+
+.advcadminboximage2 {
+  height: 400px;
+  border-radius: 15% 0% 0% 0%;
+  width: 50%;
+}
+
+.advcadminboximage3 {
+  height: 400px;
+  border-radius: 0% 0% 15% 0%;
+  width: 50%;
+}
+
+.advcadminboximage4 {
+  height: 400px;
+  border-radius: 15% 0%;
+  width: 50%;
+}
+
+.advcadminbluebox {
+  height: 50rem;
+  background-color: $blueColor;
+}
+
+.advcadminaboutindxx {
+  color: $whiteColor;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  margin-top: 3.75rem !important;
+  line-height: 36px !important;
+}
+
+.advcadminaboutimg {
+  width: 471px;
+  height: 562px;
+}
+
+.advcadminaboutimageboxouter {
+  width: 50%;
+}
+
+.advcadminabouttextbox {
+  width: 50%;
+}
+
+.advcadminabouttextboxheading {
+  font-size: 2.25rem !important;
+  color: $whiteColor;
+  font-weight: 600 !important;
+  line-height: 43.2px !important;
+  margin-bottom: 0.5rem !important;
+  font-family: Inter !important;
+}
+
+.advcadminabouttextboxdesc {
+  font-size: 18px !important;
+  color: $whiteColor;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  font-family: Inter !important;
+}
+
+.advcadminquityheading {
+  font-size: 2.25rem !important;
+  font-weight: bold;
+  color: $redColor;
+}
+
+.advcadmindevelopmentheading {
+  font-size: 2.25rem !important;
+  font-weight: bold;
+  color: $redColor;
+}
+
+.advcadminequitytext {
+  font-size: 1.125rem;
+  margin-bottom: 60px;
+}
+
+.advcadmindevelopmenttext {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.advcadminequitybtn {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  background: $whiteColor;
+}
+
+.advcadminequitybtnactive {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: $whiteColor;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  background: $redColor;
+}
+
+.advcadminequitydesc {
+  font-size: 1.125rem !important;
+  margin-top: 30px;
+}
+
+.advcadminDevopmentBox {
+  background-color: #f6f6f6;
+  padding: 60px 0px;
+}
+
+.advcadmindevelopmentOuterBox {
+  width: 48.64%;
+  height: 420px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+.advcadmindevelopmentComponentInnerBoxTop {
+  height: 410px;
+}
+
+.advcadmindevelopmentComponentInnerBoxTopHeading {
+  width: 90%;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  line-height: normal !important;
+}
+
+.advcadmindevelopmentComponentInnerBoxTopText {
+  width: 90%;
+  font-size: 1rem !important;
+  line-height: normal !important;
+}
+
+.advcadmindevimages {
+  margin: 5% 0% 0% 5%;
+}
+
+.advcadmingetintouchbtn {
+  margin: auto !important;
+  display: block !important;
+  font-family: "Inter" !important;
+  background-color: $redColor !important;
+  color: $whiteColor !important;
+  text-transform: capitalize !important;
+  border-radius: 5px !important;
+  font-size: 18px !important;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+  width: 20%;
+  font-weight: 400 !important;
+}
+.getintouchbtn {
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+  height: 46px !important;
+  width: 190px !important;
+}
+.listOfIndicesBtn {
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+  display: block !important;
+  font-family: "Inter" !important;
+  background-color: $redColor !important;
+  color: $whiteColor !important;
+  text-transform: capitalize !important;
+  border-radius: 5px !important;
+  font-size: 18px !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+  width: 313px !important;
+  height: 46px !important;
+  font-weight: 400 !important;
+}
+.listOfIndicesBtn:hover, .listOfIndicesPageBtn:hover{
+background-color: $whiteColor !important;
+color: $redColor !important;
+border: 1px solid $redColor !important;
+}
+.listOfIndicesPageBtn {
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+  display: block !important;
+  font-family: "Inter" !important;
+  background-color: $redColor !important;
+  color: $whiteColor !important;
+  text-transform: capitalize !important;
+  border-radius: 5px !important;
+  font-size: 18px !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+  width: 313px !important;
+  height: 46px !important;
+  font-weight: 400 !important;
+  margin-top: 30px !important;
+}
+
+.advcadminfirstsection {
+  padding: 60px 0px;
+}
+
+.advcadminfirstsectiontextbox {
+  width: 41%;
+}
+
+.advcadminfirstsectioncontactus {
+  width: 58%;
+}
+
+.advcadminlogostart {
+  color: #606564 !important;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: 43.2px !important;
+}
+
+.advcadminlogoend {
+  color: $redColor;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: 43.2px !important;
+}
+
+.advcadminfirstsectionheading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $redColor;
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
+}
+
+.advcadminfirstsectiondesc {
+  font-size: 18px !important;
+  font-family: Inter !important;
+}
+.CadminFeatureHeadingadv {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $blueColor;
+  width: 35%;
+  line-height: 43.2px !important;
+  // font-family: open-sans !important;
+}
+
+.CadminFeatureTextadv {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  width: 64%;
+  line-height: 27px !important;
+}
+
+.CadminCarouselHeadingadv {
+  font-size: 1.875rem !important;
+  font-weight: 500 !important;
+  text-align: left;
+  line-height: 36px !important;
+}
+
+.CadminCarouselTextadv {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin-top: 1.563rem !important;
+  text-align: left;
+  color: $whiteColor;
+  line-height: 27px !important;
+}
+
+.GetInTouchBannerHeading {
+  font-size: 34px !important;
+  font-weight: 400 !important;
+  font-family: "Inter" !important;
+  color: $whiteColor;
+  line-height: 44px !important;
+}
+.IndustryProblemBannerHeadingadv {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $whiteColor;
+  line-height: 43.2px !important;
+}
+.CadminBannerTextadv {
+  font-weight: 400 !important;
+  font-size: 1.5rem !important;
+  color: $whiteColor;
+  line-height: 36px !important;
+}
+.ManageCookieHeadingadv {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  line-height: 43.2px !important;
+}
+.CadminInnerBoxImgInnerImgadv {
+  width: 100px !important;
+  height: 100px !important;
+}
+.innerBoxTopHeadingCadminadv {
+  width: 85%;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 28.8px !important;
+}
+.innerBoxTopTextadv {
+  width: 85%;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+
+@media screen and (max-width: 900px) {
+  // .advcadmingetintouchcheckbox{
+    //   width: 90%;
+  // }
+  .CadminFeatureHeadingadv {
+    font-size: 1.25rem !important;
+    line-height: normal !important;
+  }
+  .CadminFeatureTextadv {
+    font-size: 0.8rem !important;
+    line-height: normal !important;
+  }
+  .IndustryProblemBannerHeadingadv {
+    font-size: 1.5rem !important;
+    line-height: normal !important;
+  }
+  .ManageCookieHeadingadv {
+    line-height: normal !important;
+  }
+  .innerBoxTopHeadingCadminadv {
+    line-height: normal !important;
+  }
+  .innerBoxTopTextadv {
+    line-height: normal !important;
+  }
+  .advcadmintextfieldstyle {
+    width: 100% !important;
+  }
+  .getintouchinputfield {
+    width: 100%;
+  }
+  .advcadmintextfieldstylefull {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+  .advcadminourclients {
+    font-size: 1.25rem !important;
+    margin-top: 1rem;
+  }
+  .advcadminboxtextheading {
+    font-size: 1rem;
+  }
+  .advcadminboxtextdesc {
+    font-size: 0.75rem;
+  }
+  .advcadminaboutindxx {
+    font-size: 1.125rem !important;
+    line-height: normal !important;
+  }
+  .advcadminbluebox {
+    height: 100% !important;
+  }
+  .advcadminabouttextbox {
+    width: 100%;
+  }
+  .advcadminabouttextboxheading {
+    font-size: 1.125rem !important;
+  }
+  .advcadminabouttextboxdesc {
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .advcadminaboutimg {
+    width: 400px;
+  }
+  .advcadminquityheading {
+    font-size: 1rem !important;
+  }
+  .advcadminequitytext {
+    font-size: 0.8rem;
+  }
+  .advcadminequitydesc {
+    font-size: 0.75rem !important;
+    margin-bottom: 1rem;
+  }
+  .advcadmingetintouchbtn {
+    width: 50%;
+  }
+  .advcadmindevelopmentheading {
+    font-size: 1rem !important;
+  }
+  .advcadmindevelopmenttext {
+    font-size: 0.75rem;
+  }
+  .advcadminfirstsectiontextbox {
+    width: 100%;
+  }
+  .advcadminbannerimgheading {
+    font-size: 2rem !important;
+  }
+  .advcadmincountText {
+    font-size: 1rem !important;
+  }
+  .advcadminbannerimgdesc {
+    font-size: 1rem !important;
+  }
+}
+
+
+
+  @media screen and (max-width: 660px) {
+    .listOfIndicesPageBtn{
+      margin: auto !important;
+      margin-top: 20px !important;
+    }
+    }
+    @media screen and (max-width: 900px) {
+    .listOfIndicesBtn{
+      margin: auto !important;
+      margin-top: 20px !important;
+      margin-left: auto !important;
+    }
+  }

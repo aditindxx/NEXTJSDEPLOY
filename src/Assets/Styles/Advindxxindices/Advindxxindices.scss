@@ -1,0 +1,418 @@
+@import "./../Variables/Variables.scss";
+
+.advindxxindicesbannerimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-left: 15.3125% !important;
+      padding-right: 15.3125% !important; 
+  }
+
+.advindxxindicesbannerimgheading {
+  font-weight: 900 !important;
+  line-height: 57.6px !important;
+  font-size: 3rem !important;
+  text-shadow: 2px 2px 3px #000000;
+  color: $whiteColor;
+  margin-bottom: 1.25rem !important;
+  font-family: Inter !important;
+}
+
+.advindxxindicesbannerimgdesc {
+  font-size: 1.375rem !important;
+  color: $whiteColor;
+  line-height: 2.063rem !important;
+  font-family: Inter !important;
+}
+
+.advindxxindicescalculationcount {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem !important;
+    // line-height: 5.875rem;
+    color: $whiteColor;
+    line-height: 54px !important;
+  }
+  
+  .advindxxindicescountText {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    line-height: 36px !important;
+    color: $whiteColor;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesourclients{
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    color: $redColor;
+    margin-bottom: 0.5rem !important;
+    font-family: Inter !important;
+  }
+  
+  .advindxxindicestextfieldstyle {
+    height: 50px !important;
+    outline: none !important;
+    margin-bottom: 20px !important;
+    width: 48.027% !important;
+  }
+
+  .advindxxindicestextfieldstylefull {
+    height: 120px !important;
+    outline: none !important;
+    margin-top: 26px !important;
+    width: 32% !important;
+
+  }
+
+  .advindxxindicesgetintouchcheckbox{
+    width: 30%;
+    margin-left: 5%;
+  }
+
+  .advindxxindicessendmsgBtn {
+    color: $whiteColor !important;
+    background-color: $redColor !important;
+    width: 20.027%;
+    display: block !important;
+    margin: auto !important;
+    height: 50px;
+    border-radius: 5px !important;
+    text-transform: capitalize !important;
+    font-size: 1rem !important;
+    transition: 0.4s !important;
+    font-weight: 400 !important;
+  }
+
+  .advindxxindicesContactustermsofusage{
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+  }
+
+  .advindxxindicesboxtextheading{
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    line-height: 28.8px !important;
+  }
+
+  .advindxxindicesboxtextdesc{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin-bottom: 25px !important;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesboxtext{
+    padding: 3%;
+    width: 50%;
+    height: 400px;
+  }
+
+  .advindxxindicesboximage{
+    height: 472.08px;
+    // border-radius: 15% 0%;
+    width: 50%;
+  }
+
+  .advindxxindicesboximage2{
+    height: 472.08px;
+    // border-radius: 15% 0% 0% 0%;
+    width: 50%;
+  }
+
+  .advindxxindicesboximage3{
+    height: 400px;
+    border-radius: 0% 0% 15% 0%;
+    width: 50%;
+  }
+
+  .advindxxindicesboximage4{
+    height: 400px;
+    border-radius: 15% 0%;
+    width: 50%;
+  }
+
+  .advindxxindicesdevelopmentheading{
+    font-size: 2.25rem !important;
+    font-weight: bold !important;
+    font-family: Inter !important;
+    color: $redColor;
+  }
+
+  .advindxxindicesdevelopmenttext{
+    font-size: 18px !important;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesDevopmentBox{
+    background-color: #f6f6f6;
+    padding: 60px 0px;
+  }
+
+  .advindxxindicesdevelopmentOuterBox {
+    width: 32%;
+    height: 440px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    background-color: $whiteColor;
+  }
+
+  .advindxxindicesdevelopmentOuterBoxmr2 {
+    width: 32%;
+    height: 440px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    margin-right: 2%;
+    background-color: $whiteColor;
+  }
+
+  .advindxxindicesbluebox{
+    background-color: $blueColor;
+    padding: 60px 0px;
+  }
+
+  .advindxxindicesdevelopmentComponentInnerBoxTop {
+    height: 440px;
+    overflow: hidden;
+  }
+
+  .advindxxindicesblueboxheading{
+    font-size: 2rem !important;
+    color: $whiteColor;
+    font-weight: 700 !important;
+    line-height: 38.4px !important;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesofferedbox{
+    text-align: center;
+    color: #395FD2;
+    background: $whiteColor;
+    padding: 20px;
+    margin-top: 25px;
+    border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+
+  .advindxxindicesofferedboxhovered1{
+    text-align: center;
+    color: white;
+    background-image: url(../../Images/advindxxindicesBenchmarkIndicesbg.png);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 25px;
+    // border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+  .advindxxindicesofferedboxhovered2{
+    text-align: center;
+    color: white;
+    background-image: url(../../Images/advindxxindicesESGIndicesbg.png);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 25px;
+    // border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+  .advindxxindicesofferedboxhovered3{
+    text-align: center;
+    color: white;
+    background-image: url(../../Images/advindxxindicesIncomeIndicesbg.png);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 25px;
+    // border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+  .advindxxindicesofferedboxhovered4{
+    text-align: center;
+    color: white;
+    background-image: url(../../Images/advindxxindicesStrategyIndicesbg.png);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 25px;
+    // border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+  .advindxxindicesofferedboxhovered5{
+    text-align: center;
+    color: white;
+    background-image: url(../../Images/advindxxindicesThematicIndicesbg.png);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 25px;
+    // border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+  .advindxxindicesofferedboxhovered6{
+    text-align: center;
+    color: white;
+    background-image: url(../../Images/advindxxindicesDigitalAssetIndicesbg.png);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 25px;
+    // border-bottom: 4px solid #ED3125;
+    border-radius: 5px;
+    width: 31%;
+  }
+
+  .advindxxindicesofferedboxtext{
+    font-size: 18px;
+    text-decoration: none;
+    color: #395FD2;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesofferedboxtexthovered{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesdevelopmentComponentInnerBoxTopHeading {
+    width: 90%;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    line-height: 28.8px !important;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesdevelopmentComponentInnerBoxTopText {
+    width: 90%;
+    font-size: 1rem !important;
+    line-height: 24px !important;
+    font-family: Inter !important;
+  }
+
+  .advindxxindicesdevimages{
+    margin: 5% 0% 0% 5% ;
+  }
+
+  .advindxxindicesgetintouchbtn{
+    margin: auto !important;
+    display: block !important;
+    background-color: $redColor !important;
+    color: $whiteColor !important;
+    text-transform: capitalize !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    width: 20%;
+    
+  }
+
+  .advindxxindicesgetintouchbtnbluebox{
+    margin: auto !important;
+    display: block !important;
+    background-color: $redColor !important;
+    color: $whiteColor !important;
+    text-transform: capitalize !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    margin-top: 2rem !important;
+    width: 20%;
+  }
+
+  .advindxxindicesgetintouchbtnpioneer{
+    background-color: $redColor !important;
+    color: $whiteColor !important;
+    text-transform: capitalize !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    width: 40%;
+    font-weight: 400 !important;
+  }
+
+  .advindxxindicesfirstsection{
+    padding: 60px 0px;
+  }
+
+  .advindxxindicesfirstsectiontextbox{
+    width: 41%;
+  }
+
+  .advindxxindicesfirstsectionheading{
+    font-size: 2.25rem !important;
+    font-weight: bold !important;
+    color: $redColor;
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .advindxxindicesfirstsectiondesc{
+    font-size: 18px !important;
+    font-family: Inter !important;
+  }
+
+  @media screen and (max-width: 900px) {
+    .advindxxindicesdevelopmentComponentInnerBoxTopHeading, .advindxxindicesblueboxheading, .advindxxindicesdevelopmentComponentInnerBoxTopText{
+      line-height: normal !important;
+    }
+    .advindxxindicesgetintouchcheckbox{
+      width: 90%;
+    }
+    .advindxxindicestextfieldstyle{
+      width: 100% !important;
+    }
+    .getintouchinputfield {
+      width: 100%;
+    }
+    .advindxxindicestextfieldstylefull{
+      width: 100% !important;
+      margin-bottom: 1rem
+    }
+    .advindxxindicesourclients{
+      font-size: 1.25rem !important;
+      margin-top: 1rem;
+    }
+    .advindxxindicesboxtextheading{
+      font-size: 1.5rem !important;
+      line-height: normal !important;
+    }
+    .advindxxindicesboxtextdesc{
+      font-size: 1rem !important;
+    }
+    .calculationabouttextbox{
+      width: 100%;
+    }
+    .advindxxindicesgetintouchbtn{
+      width: 50%;
+    }
+    .advindxxindicesdevelopmentheading{
+      font-size: 1rem !important;
+    }
+    .advindxxindicesdevelopmenttext{
+      font-size: 0.75rem;
+    }
+    .advindxxindicesfirstsectiontextbox{
+      width: 100%;
+    }
+    .advcalculationbannerimgheading{
+      font-size: 2rem !important;
+    }
+    .advindxxindicescountText{
+      font-size: 1rem !important;
+    }
+    .advindxxindicesbannerimgdesc{
+      font-size: 1rem !important;
+    }
+    .advindxxindicesgetintouchbtnbluebox{
+      width: 100%;
+    }
+    .advindxxindicesgetintouchbtnpioneer{
+      width: 90%;
+    }
+  }

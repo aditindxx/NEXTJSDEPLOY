@@ -1,0 +1,213 @@
+@import "./../Variables/Variables.scss";
+
+.carouselBig {
+  // min-height: 692px;
+  min-height: calc(100vh - 116px);
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  object-fit: fill;
+  mix-blend-mode: multiply;
+  position: relative;
+  z-index: 1;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.carouselContentHeight{
+  min-height: calc(100vh - 116px);
+
+}
+
+.dot{
+  // background-color: aqua;\
+  background: transparent;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.carouselHeading {
+  // font-family: 'Daikon-Medium' !important;
+  // font-family: 'Inter' !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  text-align: center !important;
+  color: $whiteColor !important;
+  position: relative !important;
+  // padding-top: 11.063rem !important;
+}
+
+// .carouselHeadingPaddingChange{
+//   // padding-top: 4rem !important;
+// }
+
+.carouselHeadingFSSmall{
+  font-size: 3rem !important;
+  line-height: 125% !important;
+}
+
+.carouselHeadingFSBig{
+  font-size: 5rem !important;
+}
+
+.textCarousel {
+  // font-family: 'Daikon-Medium';
+  // font-family: 'Inter' !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.438rem;
+  line-height: normal !important;
+  color: $whiteColor;
+  // padding-top: 1.125rem;
+  // padding-bottom: 3.375rem;
+  // position: relative;
+  text-align: center;
+  // min-height: 162px !important;
+  width: 60% !important;
+}
+.textCarousel2 {
+  // font-family: 'Daikon-Medium';
+  // font-family: 'Inter' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.438rem;
+  line-height: normal !important;
+  color: $whiteColor;
+  // padding-top: 1.125rem;
+  // padding-bottom: 3.375rem;
+  // position: relative;
+  text-align: center;
+  // min-height: 162px !important;
+  width: 60% !important;
+}
+
+.textNumberHeading{
+  // font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.813rem;
+  color: $whiteColor;
+  text-align: center;
+}
+
+.textNumber{
+  // font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+  color: $whiteColor;
+  text-align: center;
+}
+
+// .btnsGrpCarousel {
+  // font-family: 'Inter' !important;
+  // position: relative;
+  // padding-top: 5.625rem;
+  // padding-bottom: 4.563rem;
+// }
+
+.carouselActive {
+  height: 15px;
+  width: 30px;
+  border: 1px solid white;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 1rem;
+  transition: width 0.3s;
+}
+
+.carouselInactive {
+  height: 15px;
+  width: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: width 0.3s;
+}
+
+.carouselBtn {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  width: 13.813rem;
+  height: 4.375rem;
+  border-radius: 10px !important;
+  text-transform:none !important;
+  font-size: 1.25rem !important;
+  transition: 0.4s !important;
+  border: 0px !important;
+  line-height: normal !important;
+  font-weight: 400 !important;
+}
+
+.carouselBtn:hover {
+  color: $redColor !important;
+  background-color: $whiteColor !important;
+  transition: 0.4s !important;
+  border: 0px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .textNumberHeading{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .textNumber{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .textCarousel {
+    width: 90% !important;
+    font-size: 1.125rem !important;
+  }
+  .textCarousel2 {
+    width: 90% !important;
+    font-size: 1.125rem !important;
+  }
+  .carouselHeading{
+    font-size: 2.5rem !important;
+    line-height: 125% !important;
+    
+  }
+  .carouselContentHeight{
+    // min-height: 95vh;
+    min-height: calc(100vh - 64px);
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .crBtnGrp {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+}
+
+@media screen and (max-width: 660px) {
+  .carouselContentHeight{
+    // min-height: 95vh;
+    min-height: calc(100vh - 56px);
+  }
+}

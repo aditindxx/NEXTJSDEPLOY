@@ -1,0 +1,902 @@
+@import "./../Variables/Variables.scss";
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+// input[type="number"] {
+//   -moz-appearance: textfield;
+// }
+
+.IIcontactUse {
+  // min-height: calc(75vh - 116px);
+  min-height: 30rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+  // padding-left: 15.3125%;
+}
+
+.imgForFull {
+  background-position: center center !important;
+  background-size: cover !important;
+  width: 100% !important;
+  // background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 363px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.h1HeadingOfferingLicensing {
+  text-align: center;
+  font-size: 48px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 62px !important;
+  color: $whiteColor;
+}
+.h1HeadingOffering {
+  //   font-family: "Daikon";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 5rem !important;
+  line-height: normal !important;
+  color: $whiteColor;
+  // max-width: 35.937rem;
+}
+.headingSubtextOffering {
+  //   font-family: "Daikon";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 1.438rem !important;
+  line-height: normal !important;
+  color: $whiteColor;
+  // max-width: 31rem;
+}
+.inputBoxContactus {
+  border: 0px;
+  border-bottom: 2px solid $redColor !important;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.inputBoxContactus::placeholder {
+  color: $whiteColor;
+}
+
+.inputBoxContactus:focus {
+  outline: none;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  border: 0px !important;
+  outline: none;
+}
+
+.headingContactUs {
+  // font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  // line-height: 44px !important;
+  line-height: normal !important;
+  color: $whiteColor;
+}
+
+.submitBtnContactUs {
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  line-height: normal !important;
+  color: #ef3125 !important;
+  height: 3.375rem !important;
+  background: #ffffff !important;
+  border: 0 !important;
+}
+
+.submitBtnContactUsPage {
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  line-height: normal !important;
+  color: #ef3125 !important;
+  height: 3.375rem !important;
+  background: #ffffff !important;
+  border-radius: 0px !important;
+}
+
+.textWidth {
+  width: 80%;
+}
+
+// .formBox {
+//   width: 75% !important;
+// }
+
+.overviewBox {
+  width: 69.375%;
+  background: #ffffff;
+  min-height: 22.7rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  position: relative;
+  top: -44px;
+  left: 15.3%;
+}
+
+.overviewBoxText {
+  border-left: 3px solid $redColor;
+  min-height: 2rem;
+}
+
+// .overviewTextOnly {
+//   min-height: 15rem;
+// }
+
+.subHeadingOverview {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  line-height: normal !important;
+  color: $redColor !important;
+}
+.subHeadingOverviewLicensing {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  line-height: 46px !important;
+  color: $redColor !important;
+}
+
+.devProcessBox {
+  min-height: 50rem;
+  margin-bottom: -20rem;
+}
+
+.devProcessHeading {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+
+.devProcessText {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: normal !important;
+  color: $blackColor !important;
+}
+
+// .iconContainer {
+//   margin-left: 1rem;
+//   margin-right: 1rem;
+// }
+
+.processNumberBox1 {
+  min-height: 10rem !important;
+}
+.processNumberBox1Emp {
+  min-height: 9rem !important;
+}
+.processNumberBox2 {
+  min-height: 10rem !important;
+}
+.processNumberBox2Emp {
+  min-height: 8rem !important;
+}
+.processNumberBox3 {
+  min-height: 10rem !important;
+}
+.processNumberBox3Emp {
+  min-height: 8rem !important;
+}
+.processNumberBox4 {
+  min-height: 10rem !important;
+}
+.processNumberBox4Emp {
+  min-height: 8rem !important;
+}
+.processNumberBox5 {
+  max-height: 13rem !important;
+  min-height: 10rem !important;
+}
+.processNumberBox5NoMaxHeight {
+  min-height: 10rem !important;
+}
+
+.icons1 {
+  position: relative;
+  top: -124px;
+  left: 42px;
+  height: 60px;
+  width: 60px;
+}
+.icons2 {
+  position: relative;
+  top: -124px;
+  left: 54px;
+  height: 60px;
+  width: 60px;
+}
+.icons3 {
+  position: relative;
+  top: -124px;
+  left: 42px;
+  height: 60px;
+  width: 60px;
+}
+.icons4 {
+  position: relative;
+  top: -124px;
+  left: 52px;
+  height: 60px;
+  width: 60px;
+}
+.icons5 {
+  position: relative;
+  top: -124px;
+  left: 42px;
+  height: 60px;
+  width: 60px;
+}
+// .iconsBorder{
+//   // height: 177px;
+//   // width: 156px;
+// }
+
+.iconBox1 {
+  position: relative;
+  top: 0px;
+  left: 4%;
+}
+.iconBox2 {
+  position: relative;
+  top: -106px;
+  left: -4%;
+}
+.iconBox3 {
+  position: relative;
+  top: -211px;
+  left: 4%;
+}
+.iconBox4 {
+  position: relative;
+  top: -316px;
+  left: -4%;
+}
+.iconBox5 {
+  position: relative;
+  top: -421px;
+  left: 4%;
+}
+.indxxIndicesDevProcessBox {
+  height: 177px;
+}
+.indxxIndicesDevProcessImages {
+  width: 156px;
+  height: 177px;
+}
+.indxxIndicesDevProcessImagesIcon {
+  width: 60px;
+  height: 60px;
+}
+
+.iconsBorderMob {
+  transform: rotate(90deg);
+}
+.iconsBorderMobII {
+  width: 150px;
+  height: 150px;
+}
+.iconsMob {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: -96px;
+  top: -64px;
+}
+
+.OurValuesSubHead {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+
+.OurValuesText {
+  font-weight: 400 !important;
+  font-size: 1.125rem !important;
+  line-height: normal !important;
+}
+
+.ourValueImg {
+  max-width: 540px !important;
+  position: static !important;
+}
+
+.typesOfIndicesImage {
+  background-position: center !important;
+  // width: 100% !important;
+  background-repeat: no-repeat;
+  // min-height: 100%;
+  background-size: cover !important;
+  // background-attachment: fixed;
+  min-height: 363px;
+}
+.indxxInsightBox {
+  background: $whiteColor;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.05);
+}
+
+.indxxInsightImg {
+  width: 100%;
+  min-height: 200px;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  object-fit: fill;
+}
+
+.indxxInsightImgTabPanel {
+  width: 100%;
+  min-height: 200px;
+  background-position: right !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  object-fit: fill;
+}
+
+.indxxInsightImgDataTechnology {
+  width: 100%;
+  min-height: 309px;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  object-fit: fill;
+}
+
+.indxxInsightHeading {
+  font-weight: 600 !important;
+  font-size: 1.375rem !important;
+  line-height: normal !important;
+  min-height: 7.5rem;
+}
+.indxxInsightHeadingForTabs {
+  font-weight: 600 !important;
+  font-size: 1.125rem !important;
+}
+
+.indxxInsightImgForTabs:hover .indxxInsightHeadingForTabs {
+  color: $redColor;
+}
+
+.indxxInsightHeadingDataTechnology {
+  font-weight: 600 !important;
+  font-size: 1.375rem !important;
+  line-height: 1.813rem !important;
+  min-height: 1rem;
+}
+
+.indxxInsightText {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: normal !important;
+}
+
+.indxxInsightBorder {
+  border-bottom: 1px solid #d2d2d2;
+  margin: 1rem 1.125rem !important;
+}
+
+.dateBlockIndxxInsights {
+  color: $whiteColor;
+  background-color: $blueColor;
+  height: 3.5rem;
+  width: 3.5rem;
+  white-space: normal;
+}
+.dateBlockIndxxInsightsForTabs {
+  color: $whiteColor;
+  background-color: $blueColor;
+  height: 3.5rem;
+  width: 3.5rem;
+  white-space: normal;
+  border-bottom-right-radius: 10px;
+}
+
+.indiciedOfferd {
+  min-height: 10rem;
+  padding-bottom: 6rem;
+  background: $blueColor;
+}
+
+.indiciedOfferdAllBox {
+  width: 30.49%;
+  height: 5rem;
+}
+
+.indiciedOfferdArrowBox {
+  width: 25%;
+}
+
+.indiciedOfferdLinkBox {
+  width: 75%;
+}
+
+.indiciedOfferdLink {
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: normal;
+  color: $blackColor;
+}
+.indiciedOfferdLink:hover {
+  text-decoration: none;
+}
+
+.processCIBG {
+  width: 300px;
+  min-height: 187px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.processCIBox {
+  min-height: 16rem;
+}
+
+.processCIIconBorderBox {
+  width: 380px;
+}
+.processCIIconBorderMid {
+  min-height: 11.375rem;
+}
+.processCIIconBorderTopBot {
+  min-height: 10.125rem;
+}
+
+.processCISubHeading {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+.processCustIndSubHeading {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  line-height: 30px !important;
+}
+.processClienISubHeading {
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+
+.processCISubText {
+  font-weight: 400 !important;
+  font-size: 1.125rem !important;
+  line-height: normal !important;
+}
+.processCustumIndSubText {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: normal !important;
+}
+.processCISubText ul {
+  margin-left: 1.25rem !important;
+}
+.processCISubTextMob {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 21px !important;
+}
+
+.processCISubBox1 {
+  height: 12rem !important;
+}
+.processCISubBox1Emp {
+  height: 12rem !important;
+}
+.processCISubBox2 {
+  min-height: 10rem !important;
+}
+.processCISubBox2Emp {
+  height: 12rem !important;
+}
+.processCISubBox3 {
+  min-height: 10rem !important;
+}
+.processCISubBox3Emp {
+  min-height: 14rem !important;
+}
+.processCISubBox4 {
+  min-height: 10rem !important;
+  max-height: 10rem !important;
+}
+.processCISubBox4Emp {
+  min-height: 13rem !important;
+}
+.processCIIconsMob {
+  position: relative;
+  left: -94px;
+  top: -74px;
+}
+.processCINumberInner {
+  border-radius: 50%;
+  height: 57px;
+  width: 57px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.processEBCSNumberInner {
+  border-radius: 50%;
+  height: 47px;
+  width: 47px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.processEQNumberInner {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.processCINumberOuter {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  height: 51px;
+  width: 51px;
+}
+.processCLINumberOuter {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  background-color: $whiteColor;
+  height: 77px;
+  width: 77px;
+}
+.processEQNumberOuter {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  background-color: $whiteColor;
+  height: 58px;
+  width: 58px;
+  position: relative;
+  top: -28%;
+  left: 88%;
+}
+.processCLIOne {
+  position: relative;
+  top: -243px;
+  left: 93%;
+  margin-bottom: -82px;
+}
+.processCLITwo {
+  position: relative;
+  top: -216px;
+  left: -20.2%;
+  margin-bottom: -82px;
+}
+.processCLIFour {
+  position: relative;
+  top: -170px;
+  left: -20.2%;
+  margin-bottom: -82px;
+}
+.leftArrow {
+  position: relative;
+  top: -6px;
+}
+.rightArrow {
+  position: relative;
+  top: -8px;
+}
+.leftRedArrow {
+  position: relative;
+  top: 12px;
+  left: -1%;
+}
+.rightRedArrow {
+  position: relative;
+  top: 12px;
+  left: 99%;
+}
+.rightRedArrowDown {
+  position: relative;
+  top: 12px;
+  left: 99%;
+}
+
+// client
+.processCLIBox {
+  // min-height: 16rem;
+  width: 88.918%;
+  // margin-bottom: -100px !important;
+}
+
+.processCLIBG1 {
+  width: 50%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.processCLIBG2 {
+  width: calc(50% + (2px));
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.processCLIText {
+  width: 83.8095%;
+}
+.processCLIInnerBox {
+  min-height: 139px;
+}
+
+// equity
+.processEQSubHeading {
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+
+.equityProcessBox {
+  width: 222px;
+  height: 224px;
+  border-radius: 29px;
+  // border: 8px solid;
+}
+
+.equityProcessBoxHeading {
+  color: $blackColor !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.processEQIMG {
+  // min-height: 285px;
+  min-height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+@media screen and (max-width: 1100px) {
+  // .IIcontactUse {
+  //   padding-left: 5% !important;
+  // }
+  .subHeadingOverviewLicensing{
+    line-height: normal !important;
+  }
+  .processCLITwo {
+    top: -244px;
+    left: -26.2%;
+  }
+  .processCLIFour {
+    top: -244px;
+    left: -26.2%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .devProcessBox {
+    margin-bottom: 0rem !important;
+  }
+  .IIcontactUse {
+    min-height: calc(60vh - 116px);
+  }
+  .h1HeadingOfferingLicensing {
+    font-size: 2.5rem !important;
+    line-height: normal !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .h1HeadingOffering {
+    font-size: 3rem !important;
+    line-height: 60px !important;
+    // max-width: 85% !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .headingSubtextOffering {
+    font-size: 1.25rem !important;
+    // max-width: 90% !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .overviewBox {
+    position: static;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .processCINumberInner {
+    font-size: 30px;
+  }
+  .processEBCSNumberInner {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .imgForFull {
+    border-radius: 15px !important;
+  }
+  .overviewBoxText {
+    border-left: 0px;
+    border-top: 3px solid $redColor;
+  }
+  .imgForFull {
+    background-position: bottom !important;
+    min-height: 300px;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1100px) {
+  .rightRedArrowDown {
+    top: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .rightRedArrowDown {
+    top: 16px;
+  }
+}
+@media screen and (min-width: 1620px) {
+  .rightRedArrow {
+    top: 24px;
+  }
+  .rightRedArrowDown {
+    top: 16px;
+  }
+}
+
+@media screen and (min-width: 1723px) and (max-width: 1821px) {
+  .rightRedArrowDown {
+    top: 36px;
+  }
+}
+@media screen and (min-width: 1821px) {
+  .rightRedArrowDown {
+    top: 66px;
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  .processCLIFour {
+    top: -200px;
+    left: -20.2%;
+  }
+}
+@media screen and (max-width: 1720px) {
+  .processCLIFour {
+    top: -220px;
+    left: -20.2%;
+  }
+}
+@media screen and (min-width: 1840px) {
+  .rightRedArrow {
+    top: 44px;
+  }
+  .processCLIOne {
+    left: 94%;
+  }
+  .processCLITwo {
+    top: -200px;
+    left: -18%;
+  }
+  .processCLIFour {
+    top: -170px;
+    left: -18%;
+  }
+}
+@media screen and (max-width: 1620px) and (min-width: 1099px) {
+  .processCLITwo {
+    top: -240px;
+    left: -22.2%;
+  }
+  .processCLIFour {
+    top: -222px;
+    left: -23.2%;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1100px) {
+  .processCLIFour {
+    top: -240px;
+    left: -27.2%;
+  }
+}
+@media screen and (max-width: 1420px) and (min-width: 1100px) {
+  .processCLITwo {
+    top: -260px;
+    left: -27%;
+  }
+  .processCLIFour {
+    top: -260px;
+    left: -27%;
+  }
+  .processCLIOne {
+    left: 90%;
+  }
+}
+@media screen and (max-width: 1270px) and (min-width: 1100px) {
+  .processCLITwo {
+    top: -267px;
+    left: -30%;
+  }
+  .processCLIFour {
+    top: -267px;
+    left: -30%;
+  }
+}
+@media screen and (max-width: 1143px) and (min-width: 1100px) {
+  .processCLITwo {
+    top: -290px;
+    left: -34%;
+  }
+  .processCLIFour {
+    top: -290px;
+    left: -34%;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 1100px) {
+  .processCLITwo {
+    top: -236px !important;
+    left: -27% !important;
+  }
+  .processCLIFour {
+    top: -224px !important;
+    left: -27% !important;
+  }
+}
+@media screen and (max-width: 1460px) {
+  .indxxInsightHeading {
+    min-height: 9rem;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .indxxInsightHeading {
+    min-height: 12rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .indxxInsightHeading {
+    min-height: 2rem;
+  }
+  .overviewBox {
+    width: 90% !important;
+    left: 5%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .hgt800AIC {
+    align-items: center !important;
+  }
+  .hgt800PT40 {
+    padding-top: 40px !important;
+  }
+  .hgt800H100 {
+    height: 100%;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .hgtMaxH80 {
+    height: 90%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .processCLITwo {
+    top: -277px;
+    left: -31.2%;
+  }
+  .processCLIFour {
+    top: -243px;
+    left: -31.2%;
+  }
+}

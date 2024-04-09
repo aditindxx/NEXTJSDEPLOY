@@ -1,0 +1,509 @@
+@import "./../Variables/Variables.scss";
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ITICSstoryText {
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+
+.ITICSstoryHeading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $blueColor;
+  line-height: normal !important;
+}
+
+.ITICSOverviewHeading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-break: 3rem !important;
+  color: $redColor;
+}
+
+.ITICSOverviewText {
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  line-height: 1.638rem !important;
+}
+
+.ITICScontactUse {
+  min-height: 39.688rem;
+  // min-height: calc(100vh - 116px);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.OverviewimgForFull {
+  background-position: center center !important;
+  background-size: cover !important;
+  width: 100% !important;
+  // background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 363px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.h1HeadingITICS {
+  font-weight: 700 !important;
+  font-size: 3.125rem !important;
+  line-height: 60px !important;
+  color: $whiteColor;
+  max-width: 33.75rem;
+}
+
+.ITICSITICSbox {
+  margin-top: 14%;
+  margin-left: 15.5%;
+}
+
+.h1HeadingITICSITICS {
+  //   font-family: "Daikon";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 3.125rem !important;
+  line-height: 60px !important;
+  color: $whiteColor;
+  max-width: 33.75rem;
+}
+
+.formBox {
+  width: 100% !important;
+}
+
+.ITICSOverviewBox {
+  width: 69.375%;
+  background: #ffffff;
+  min-height: 22.7rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  position: relative;
+  top: -44px;
+  left: 15.3%;
+}
+
+.ITICSoverviewBoxText {
+  border-left: 3px solid $redColor;
+}
+
+.ITICSGlanceHeading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $redColor;
+  text-align: center;
+  line-height: normal !important;
+}
+
+.ITICSCountstyle {
+  color: $redColor;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.ITICSBLResp2 {
+  border-left: 2px solid #395fd2;
+}
+
+.ITICScountText {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: normal !important;
+  color: rgb(0, 0, 0);
+}
+
+.ITICSGlanceText {
+  font-size: 1rem !important;
+  text-align: center;
+  font-style: italic;
+  line-height: normal !important;
+}
+
+.ITICSGlanceContainer {
+  width: 70%;
+  margin: auto;
+}
+
+.ITICSEdgeContainer {
+  width: 57.5%;
+  margin: auto;
+}
+
+.GradientEnding {
+  background: linear-gradient(270deg, #d9d9d9 0%, #fff 100%);
+  min-height: 19.23% !important;
+}
+
+.GradientStarting {
+  background: linear-gradient(90deg, #d9d9d9 0%, #fff 100%);
+  min-height: 19.23% !important;
+}
+
+.IconBox {
+  width: 18.91% !important;
+}
+
+.iticsedgeimagescss{
+  height: 95px !important;
+  width: 95px !important;
+}
+
+.RedBox {
+  background: linear-gradient(270deg, #ed3125 0%, #bb180e 100%);
+  width: 3.8%;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.BlueBox {
+  background: linear-gradient(270deg, #395fd2 0%, #183eb0 100%);
+  width: 3.8%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.iticsEdgeImg{
+  height: 95px;
+  width: 95px;
+}
+
+.WhiteBoxLeft {
+  width: 3.8%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.WhiteBoxRight {
+  width: 3.8%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.GradientContent {
+  width: 73.5%;
+}
+
+.GradientContentHeading {
+  color: $redColor;
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  padding-right: 1rem;
+  line-height: normal !important;
+}
+
+.GradientContentText {
+  font-size: 1rem !important;
+  padding-right: 1rem;
+  line-height: normal !important;
+}
+
+.ITICSAdvantageHeading {
+  color: $redColor;
+  font-size: 2.25rem !important;
+  font-weight: 700;
+  text-align: center;
+  line-height: normal !important;
+}
+
+.ITICSAdvantageText {
+  font-size: 1.125rem !important;
+  text-align: center;
+  width: 80%;
+  margin: 22px auto !important;
+  line-height: 20px !important;
+}
+
+.InnerAdvContainerOdd {
+  border: 5px solid #d9d9d9;
+  border-left: none;
+  border-bottom: none;
+  height: 90px;
+  width: 18.4%;
+}
+
+.InnerAdvContainerEven {
+  border: 5px solid #d9d9d9;
+  border-left: none;
+  border-bottom: none;
+  height: 270px;
+  width: 18.4%;
+}
+
+.OuterAdvContainerLeft {
+  border: 5px solid #d9d9d9;
+  border-left: none;
+  border-bottom: none;
+  height: 270px;
+  width: 13.2%;
+}
+
+.LineGrey {
+  border: 5px solid #d9d9d9;
+  height: 270px;
+}
+
+.OuterAdvContainerRight {
+  border: 5px solid #d9d9d9;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  height: 270px;
+  width: 13.2%;
+}
+
+.BlueCircle {
+  background: #395fd2;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+}
+
+.BlueCircleSmall {
+  background: #395fd2;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+}
+
+.RedCircle {
+  background: #ed3125;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+}
+
+.RedCircleSmall {
+  background: #ed3125;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+}
+
+.longBorderIconImage {
+  width: 5px;
+  min-height: 270px;
+}
+
+.shortBorderIconImage {
+  width: 5px;
+  min-height: 90px;
+}
+
+.middleBorderIconImage {
+  margin-top: 162px;
+}
+.Centericon {
+  height: 61px !important;
+  width: 61px !important;
+}
+.hA{
+height: auto !important;
+}
+.GEImgBox {
+  width: 63% !important;
+}
+.GEImgBoxImage{
+  height: 50rem !important;
+  width: 50rem !important;
+}
+.GEImgBoxImageHalf{
+  height: 25rem !important;
+  width: 25rem !important;
+}
+
+.LevelBox {
+  width: 31% !important;
+  padding-top: 3%;
+}
+
+.AdvImgUpperText {
+  position: absolute;
+  top: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 17%;
+  gap: 12%;
+}
+
+.AdvImgLowerText {
+  position: absolute;
+  top: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 0%;
+  gap: 12%;
+}
+
+.ITICSoverviewtext {
+  font-size: 1.25rem !important;
+  line-height: normal !important;
+}
+
+.AdvImgTextHeading {
+  font-weight: 500;
+  font-size: 1.25rem !important;
+  line-height: 24px !important;
+}
+
+.AdvImgTextPara {
+  font-weight: 400;
+  font-size: 1.125rem !important;
+  line-height: 21px !important;
+}
+
+@media screen and (max-width: 1250px) {
+  .ITICSCountstyle {
+    font-size: 2rem !important;
+  }
+  .ITICScountText {
+    font-size: 1rem !important;
+  }
+  .AdvImgTextHeading {
+    font-size: 1.125rem !important;
+  }
+
+  .AdvImgTextPara {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ITICSContactussmallMob {
+    width: 90% !important;
+    margin-left: 5% !important;
+  }
+  .h1HeadingITICS {
+    font-size: 2rem !important;
+  }
+  .ITICSBLResp2 {
+    border-left: none !important;
+  }
+  .GEBox {
+    margin-top: 3rem !important;
+  }
+  .ADVBox {
+    margin-top: 3rem !important;
+  }
+  .ITICSAdvLaptopView {
+    display: none;
+  }
+  .LevelBox {
+    width: 100% !important;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .GEImgBox {
+    width: 100% !important;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .h1HeadingITICSITICS {
+    font-size: 3rem !important;
+    line-height: 60px !important;
+  }
+}
+
+.ITICSAdvMobileView {
+  display: none;
+}
+@media screen and (min-width: 901px) {
+  .ITICSAdvLaptopView {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .EdgeImgLaptop {
+    display: flex;
+  }
+  .EdgeImgMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .GradientContent {
+    width: 92.5%;
+    text-align: center;
+  }
+  .IconBox {
+    width: 28.91% !important;
+  }
+  .ITICSEdgeContainer {
+    margin-top: 2rem !important;
+  }
+  .AllGradient {
+    margin-top: 10px !important;
+  }
+  .ITICSGlanceMobileView {
+    margin-top: 15px !important;
+  }
+  .ITICSAdvantageHeading {
+    font-size: 2rem !important;
+  }
+  .ITICSGlanceContainer {
+    width: 90% !important;
+  }
+  .EdgeImgLaptop {
+    display: none;
+  }
+  .EdgeImgMobile {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .ITICSOverviewBox {
+    width: 90%;
+    left: 5%;
+  }
+  .ITICSCountstyle {
+    font-size: 2rem !important;
+  }
+  .ITICScountText {
+    font-size: 1.25rem !important;
+  }
+
+  .ITICSGlanceContainer {
+    margin-top: 0rem !important;
+  }
+  .ITICSEdgeContainer {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .h1HeadingITICSITICS {
+    max-width: 85% !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .GEImgBoxImage{
+    height: 40rem !important;
+    width: 40rem !important;
+  }
+  .GEImgBoxImageHalf{
+    height: 20rem !important;
+    width: 20rem !important;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .ITICSAdvMobileView {
+    display: flex;
+  }
+  .GEImgBoxImage{
+    height: 25rem !important;
+    width: 25rem !important;
+  }
+  .GEImgBoxImageHalf{
+    height: 15rem !important;
+    width: 15rem !important;
+  }
+}

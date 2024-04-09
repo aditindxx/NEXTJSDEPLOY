@@ -1,0 +1,506 @@
+@import "./../Variables/Variables.scss";
+
+.h1HeadingCADMIN {
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;
+  color: $whiteColor;
+  line-height: 2.969rrem !important;
+}
+
+#lineHt47p {
+  line-height: 47.5px !important;
+}
+
+.CadminLogo {
+  height: 113px !important;
+  width: 382px !important;
+  margin-left: -20px;
+}
+
+.CadminLogo2 {
+  margin-left: -9px;
+  width: 168px !important;
+  height: 50px !important;
+}
+.solution_image {
+  // height: auto !important;
+  height: 40rem !important;
+}
+.CadminCadminText {
+  font-size: 1.25rem !important;
+  font-weight: 400;
+  line-height: normal !important;
+}
+
+.CadminCadminHeading {
+  font-size: 2rem !important;
+  font-weight: 700;
+  color: $redColor;
+  line-height: normal !important;
+}
+
+.CadminIndustryBanner {
+  min-height: 12.5rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.CadminCadminBanner {
+  min-height: 12.5rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.CadminCadminBanner2 {
+  min-height: 15.625rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.getInTouchBanner {
+  min-height: 334px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.getInTouchBanner2 {
+  min-height: 228px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.indexLicensingInnerBox {
+  height: 88px;
+  width: 88px !important;
+  background-color: $whiteColor;
+}
+.indexLicensingOuterBox {
+  margin: 0.7% 0.6%;
+  min-height: 108px;
+  width: 32%;
+  background-color: $whiteColor;
+}
+.indexLicensingInnerBoxText {
+  color: $blackColor;
+  font-size: 22px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 30px !important;
+}
+.IndustryProblemBannerText {
+  font-weight: 400 !important;
+  font-size: 1.25rem !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.CadminBannerText {
+  font-weight: 400 !important;
+  font-size: 1.5rem !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.IndustryProblemBannerHeading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.IndustryComponentOuterBox {
+  width: 48.64%;
+  height: 420px;
+}
+
+.IndustryComponentInnerBoxTop {
+  height: 410px;
+}
+
+.IndustryInnerBoxBottom {
+  height: 10px;
+}
+
+.IndustryComponentInnerBoxTopHeading {
+  width: 85%;
+  font-size: 1.875rem !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+.IndustryComponentInnerBoxTopText {
+  width: 85%;
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+
+.CadminCarousel .carousel-indicators {
+  display: none;
+}
+
+.FeatureCarouselBox {
+  height: 646px;
+  width: 100%;
+  background-color: $blueColor;
+}
+
+.CadminCarouselImg {
+  width: 48.64% !important;
+  height: 24.813rem !important;
+}
+
+.CadminCarouselHeading {
+  font-size: 1.875rem !important;
+  font-weight: 500 !important;
+  text-align: left;
+  line-height: normal !important;
+}
+
+.CadminCarouselText {
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  margin-top: 1.563rem !important;
+  text-align: left;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.CadminCarouselTextBox {
+  width: 48%;
+  margin-top: 6rem;
+  color: $whiteColor;
+}
+
+.CadminFeatureHeading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: $blueColor;
+  width: 35%;
+  line-height: normal !important;
+  // font-family: open-sans !important;
+}
+
+.CadminFeatureText {
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  width: 64%;
+  line-height: normal !important;
+}
+
+.CadminFeatureBox {
+  width: 90%;
+  margin: auto;
+  padding: 2.5rem 0rem;
+}
+
+.CadminCarousel {
+  margin-top: -6vh;
+}
+
+.CadminInnerBoxTop {
+  height: 367px !important;
+  border-radius: 10px;
+}
+
+.CadminInnerBoxImg {
+  width: 85% !important;
+  margin: auto !important;
+}
+.CadminInnerBoxImgInnerImg {
+  width: 91px !important;
+  height: 91px !important;
+}
+.innerBoxTopHeadingCadmin {
+  width: 85%;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+.Cadminouterbox {
+  width: 31.5%;
+  border-radius: 10px;
+  margin-bottom: 1.875rem !important;
+  position: relative;
+  z-index: 1;
+}
+
+.Cadminouterbox:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  background: #395FD2;
+  border-radius: 10px;
+  z-index: -1;
+  transition: transform 0.3s;
+}
+
+.Cadminouterbox:hover::after {
+  transform: scaleY(1);
+}
+
+.CadminQuestonsfs {
+  font-size: 1.125rem !important;
+}
+.redHover:hover {
+  color: $redColor !important;
+}
+
+.CadminBottomBanner {
+  min-height: 44.625rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: inherit !important;
+  background-size: cover !important;
+  opacity: 0.8999999761581421;
+}
+
+.CadminBottomBannerHeading {
+  font-weight: 700 !important;
+  font-size: 2.625rem !important;
+  color: $whiteColor;
+  max-width: 36rem;
+  line-height: normal !important;
+}
+
+.CadminInputBox {
+  border: 0px;
+  border-bottom: 2px solid $whiteColor !important;
+  background-color: rgba(0, 0, 0, 0);
+  line-height: normal !important;
+}
+
+.CadminInputBox::placeholder {
+  color: $whiteColor;
+}
+.CadminInputBox:focus {
+  outline: none;
+}
+
+.DownloadBrochure {
+  width: 100%;
+  margin-top: 0px;
+  height: 60px;
+  margin-bottom: -62px;
+  background-color: #3f4040;
+}
+
+.CadminDownloadBrochureBox {
+  width: 85%;
+  margin: auto;
+  padding: 2.3rem 0rem;
+}
+
+.DownloadBrochurebtn {
+  color: rgb(255, 255, 255) !important;
+  background-color: #ed3125 !important;
+  width: 30.19%;
+  height: 2.813rem;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-size: 1.125rem !important;
+  transition: 0.4s !important;
+  text-decoration: underline !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+}
+
+.DownloadBrochureDiv {
+  position: absolute;
+  left: 15%;
+  margin-top: -8vh;
+}
+
+.LogoPadding {
+  padding-right: 1.25rem;
+  height: 60px;
+  width: 60px;
+}
+
+.CadminDesktop {
+  width: 60% !important;
+  height: auto !important;
+}
+@media only screen and (max-width: 1309px) and (min-width: 901px) {
+  .CadminInnerBoxTop {
+    height: 600px !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .DownloadBrochureDiv {
+    left: 5%;
+  }
+  .swiper .swiper-button-prev:after {
+    margin-left: 0rem !important;
+    margin-bottom: 12rem !important;
+  }
+  .swiper .swiper-button-next:after {
+    margin-right: 0rem !important;
+    margin-bottom: 12rem !important;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .IndustryComponentInnerBoxTopText {
+    font-size: 1rem !important;
+  }
+  .CadminInnerBoxTop {
+    height: 450px !important;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .CadminDesktop {
+    width: 615px !important;
+    height: 449px !important;
+  }
+
+  .CadminBannerStyle {
+    width: 40vw !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CadminCarouselTextBox {
+    margin-top: 1rem !important;
+    width: 100% !important;
+  }
+  .CadminCarouselImg {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .CadminMobFFC {
+    flex-flow: column;
+  }
+  .CadminQuestonsfs {
+    font-size: 1rem !important;
+  }
+  .DownloadBrochureDiv {
+    margin-top: -14vh;
+  }
+  :root {
+    --swiper-navigation-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 899px) {
+  .DownloadBrochureDiv {
+    margin-top: -15vh;
+  }
+  .CadminCarouselTextBox {
+    margin-top: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .indexLicensingOuterBox{
+    width: 48%;
+  }
+  .IndustryComponentOuterBox {
+    margin-top: 1rem;
+    height: 100%;
+  }
+  .IndustryProblemBannerText {
+    font-size: 1rem !important;
+  }
+  .IndustryProblemBannerHeading {
+    font-size: 1.5rem !important;
+  }
+  .Cadminouterbox {
+    width: 350px !important;
+  }
+  .CadminInnerBoxTop {
+    height: 400px !important;
+  }
+  .CadminCadminHeading {
+    font-size: 1.5rem !important;
+  }
+  .CadminFeatureHeading {
+    font-size: 1.25rem !important;
+  }
+  .CadminFeatureText {
+    font-size: 0.8rem !important;
+  }
+  .CadminBottomBannerMT1 {
+    margin-top: 2rem !important;
+  }
+  .CadminBottomBannerHeading {
+    font-size: 2rem !important;
+  }
+  .DownloadBrochurebtn {
+    width: 100%;
+  }
+  .CadminLogo {
+    height: 100px !important;
+    width: 300px !important;
+  }
+  .h1HeadingCADMIN {
+    font-size: 2rem !important;
+  }
+  .IndustryComponentInnerBoxTop {
+    padding-bottom: 2%;
+    height: 100%;
+  }
+  .IndustryComponentInnerBoxTopHeading {
+    padding-top: 5px !important;
+  }
+  .IndustryComponentInnerBoxTopText {
+    padding-top: 0px !important;
+  }
+  .CadminCadminText {
+    font-size: 1rem !important;
+  }
+  .FeatureBannerBox {
+    margin-top: 1.25rem !important;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: -6vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev:after {
+  color: $whiteColor !important;
+  margin-left: 4.125rem !important;
+}
+.swiper-button-next:after {
+  color: $whiteColor !important;
+  margin-right: 4.125rem !important;
+}
+
+.swiper-pagination-bullets {
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .indexLicensingOuterBox{
+    width: 100%;
+  }
+}

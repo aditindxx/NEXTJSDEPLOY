@@ -1,0 +1,343 @@
+@import "./../Variables/Variables.scss";
+
+.contactusbannerimg {
+  background: url(../../Images/contactusbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  // min-height: 25rem;
+  min-height: 40vh;
+}
+
+.contactusbannerimgpara {
+  font-weight: 700 !important;
+  font-size: 4rem !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.contactusformheading {
+  color: $redColor;
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  line-height: normal !important;
+  font-family: Inter !important;
+}
+.contactusformheadingCadmin {
+  color: $redColor;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: normal !important;
+}
+
+.bordr10px {
+  border-radius: 10px;
+}
+
+.sendmsgBtn {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  width: 48.027%;
+  height: 50px;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-size: 1rem !important;
+  transition: 0.4s !important;
+  font-weight: 400 !important;
+  line-height: 25px !important;
+  font-family: 'Inter' !important;
+}
+
+.locationBtn {
+  color: $whiteColor !important;
+  background-color: #ed3125 !important;
+  min-width: 10rem;
+  height: 60px;
+  border-radius: 8px !important;
+  text-transform: capitalize !important;
+  font-size: 1.875rem !important;
+  transition: 0.4s !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  display: inline-flex;
+}
+
+.Fgap27 {
+  gap: 2.7%;
+}
+
+.getintouchform .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  line-height: 2em;
+  color: #636363 !important;
+}
+
+.getintouchform {
+  min-height: 450px;
+}
+
+.bordr5px {
+  border-radius: 5px;
+}
+
+.iconssubhead {
+  font-size: 1.375rem !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
+
+.iconscontent {
+  font-size: 1.125rem !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+
+.textfieldstyle {
+  height: 50px !important;
+  outline: none !important;
+  margin-bottom: 20px !important;
+  width: 48.027% !important;
+}
+.selectfieldstyle {
+  min-height: 50px !important;
+  // outline: none !important;
+  margin-bottom: 20px !important;
+}
+.selectfieldstyle .css-13cymwt-control,.selectfieldstyle .css-1fdsijx-ValueContainer,.selectfieldstyle .css-3w2yfm-ValueContainer{
+  min-height: 50px !important;
+  background-color: #f5f5f5 !important;
+}
+
+.textfieldstylearofint {
+  height: 50px !important;
+  outline: none !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+
+
+.textfieldstylefull {
+  height: 100px !important;
+  outline: none !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+
+.checkBoxContactUs {
+  width: 100% !important;
+}
+
+.checkboxIntrest {
+  color: #636363;
+  font-weight: 400;
+  font-size: 1rem;
+  // height: 50px !important;
+  outline: none !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+
+.interestLabel .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root{
+  background-color: white !important;
+}
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+  max-height: 170px !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  height: auto;
+  min-height: 1.4375em;
+  text-overflow: ellipsis;
+  white-space: pre-wrap !important;
+  overflow: hidden;
+}
+
+.iconsboxstyle {
+  height: 7.5rem;
+  margin-bottom: 1.875rem;
+}
+
+.iconimgstyle {
+  width: 74px;
+  height: 74px;
+  background-color: #395fd2;
+  margin: auto 28px;
+}
+
+.paddingtop125 {
+  padding-top: 1.75rem;
+}
+
+.contactuslocationheading {
+  color: #395fd2;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+  margin-top: 7.063rem !important;
+  line-height: normal !important;
+}
+
+.locationbox {
+  margin-top: 1.5rem;
+}
+
+.locationimg {
+  height: 250px !important;
+  width: 348px !important;
+  border-radius: 10px;
+}
+
+.getintouchinputfield .css-1o6z5ng {
+  color: #636363 !important;
+}
+
+.locationimgtext {
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  text-align: center;
+  margin-top: 1.5rem !important;
+  color: #000;
+  line-height: normal !important;
+}
+
+.outerlocationbox {
+  margin-top: 3.688rem;
+}
+
+.callandemailbox {
+  width: 40.05%;
+}
+
+.Contactustermsofusage {
+  font-weight: 400 !important;
+  font-family: Inter !important;
+  line-height: 22.5px !important;
+}
+
+@media screen and (max-width: 650px) {
+  // .contactusbannerimg{
+  //   min-height: 18rem !important;
+  // }
+  .contactusbannerimgpara {
+    font-size: 2.5rem !important;
+  }
+  .contactuslocationheading {
+    margin-top: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .locationimgtext {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .iconimgstyle {
+    margin: auto 12px !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .MR15 {
+    margin-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .getintouchContainer {
+    flex-flow: column;
+  }
+  .getintouchform {
+    width: 100% !important;
+  }
+  .callandemailbox {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .locationimg {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .textfieldstyle,
+  .checkBoxContactUs {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .iconsboxstyle {
+    height: 9.5rem;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .getintouchform {
+    width: 90% !important;
+  }
+  .callandemailbox {
+    width: 55% !important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .iconimgstyle {
+    margin: auto 12px !important;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .callandemailbox {
+    width: 90% !important;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1132px) {
+  .locationimg {
+    width: 220px !important;
+    height: 180px !important;
+  }
+}
+@media screen and (min-width: 1132px) and (max-width: 1218px) {
+  .locationimg {
+    width: 240px !important;
+    height: 200px !important;
+  }
+}
+@media screen and (min-width: 1218px) and (max-width: 1304px) {
+  .locationimg {
+    width: 260px !important;
+  }
+}
+@media screen and (min-width: 1304px) and (max-width: 1390px) {
+  .locationimg {
+    width: 280px !important;
+  }
+}
+@media screen and (min-width: 1390px) and (max-width: 1480px) {
+  .locationimg {
+    width: 300px !important;
+  }
+}
+@media screen and (min-width: 1480px) and (max-width: 1520px) {
+  .locationimg {
+    width: 320px !important;
+  }
+}
+@media screen and (min-width: 1520px) and (max-width: 1598px) {
+  .locationimg {
+    width: 330px !important;
+  }
+}
+@media screen and (min-width: 1640px) and (max-width: 1750px) {
+  .locationimg {
+    width: 380px !important;
+  }
+}
+@media screen and (min-width: 1750px) and (max-width: 1920px) {
+  .locationimg {
+    width: 420px !important;
+  }
+}

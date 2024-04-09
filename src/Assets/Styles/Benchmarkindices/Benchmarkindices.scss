@@ -1,0 +1,132 @@
+@import "./../Variables/Variables.scss";
+
+.benchmarkindicesimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  // height: 25rem;
+  height: 40vh;
+}
+.tabBtnTypesIndices {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  width: 8.75rem;
+  height: 2.813rem;
+  font-weight: 400 !important;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-size: 1.125rem !important;
+  transition: 0.4s !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+}
+
+.benchmarkindicesimgpara {
+  font-weight: 700 !important;
+  font-size: 4rem !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.BenchmarkSubHead {
+  color: #395fd2;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.imgoppbordr30 {
+  border-radius: 30px 0px;
+}
+
+.MT4REM {
+  margin-top: 4rem;
+}
+
+.accordionbgblue {
+  background-color: #395fd2 !important;
+}
+
+.accordiontext {
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+  line-height: normal !important;
+  letter-spacing: -0.6px !important;
+}
+
+.newsandresearchouterbox {
+  border-radius: 10px;
+}
+
+.accordionbggrey {
+  background-color: #f5f5f5 !important;
+}
+
+.accordioninput {
+  background-color: white !important;
+  border-radius: 10px !important;
+  color: #000 !important;
+  padding: 1rem;
+  // margin-bottom: 1.313rem !important;
+  font-size: 1.25rem !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+}
+.accordioninput:hover {
+  color: $redColor !important;
+
+}
+
+.fnt125 {
+  font-size: 1.25rem !important;
+}
+
+.arrowwhite .css-i4bv87-MuiSvgIcon-root {
+  color: white;
+}
+
+.groupBtnLanguage {
+  top: 47%;
+  background-color: $whiteColor;
+  border-radius: 10px !important;
+}
+
+.grpBtnActive {
+  border-radius: 5px !important;
+  background: #395fd2 !important;
+  color: $whiteColor !important;
+  text-transform: capitalize !important;
+  width: 210px !important;
+  transition: width 0.3s !important;
+}
+
+.grpBtnInActive {
+  border-radius: 5px !important;
+  background: $whiteColor !important;
+  color: $darkGreyCyan !important;
+  text-transform: capitalize !important;
+  width: 180px !important;
+  transition: width 0.3s !important;
+}
+@media screen and (max-width: 650px) {
+  .grpBtnActive {
+    width: 160px !important;
+  }
+
+  .grpBtnInActive {
+    width: 140px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .benchmarkindicesimgpara {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .groupBtnLanguage {
+    top: 40%;
+  }
+}

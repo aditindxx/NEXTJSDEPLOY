@@ -1,0 +1,103 @@
+@import "./../Variables/Variables.scss";
+
+.indicesHeadingBG {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  // url(../../Images/indices.png);
+  width: 100%;
+  min-height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// .indicesHeadingBGLayer{}
+.indicesBox {
+  min-height: 10rem;
+  padding-bottom: 6rem;
+  background: $lightestRed;
+}
+
+.indicesAllBox {
+  width: 30.7%;
+  min-height: 6.25rem;
+  background-color: $blueColor;
+  line-height: normal !important;
+}
+
+.indicesLink {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: normal !important;
+  color: $whiteColor;
+}
+.keyDifferentiatInnerCircle {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  height: 6.125rem;
+  width: 6.125rem;
+  border-radius: 50%;
+}
+.keyDifferentiatInnerCircleIcon {
+  height: 44px;
+  width: 44px;
+}
+
+.keyDifferentiatInnerCircleRed {
+  background-color: $redColor;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  height: 6.125rem;
+  width: 6.125rem;
+  border-radius: 50%;
+}
+.keyDifferentiatInnerCircleBlue {
+  background-color: $blueColor;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  height: 6.125rem;
+  width: 6.125rem;
+  border-radius: 50%;
+}
+.keyDifferentiatOuterCircle {
+  height: 8.375rem;
+  width: 8.375rem;
+  border-radius: 50%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.downDirectionalArrowBox {
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 4rem;
+}
+.keyDifferentiatBox {
+  min-height: 46.5rem;
+}
+
+.keyDifferentiatSubBox1 {
+  min-height: 12.5rem !important;
+}
+.keyDifferentiatSubBox1Emp {
+  min-height: 12.5rem !important;
+}
+.keyDifferentiatSubBox2 {
+  min-height: 10rem !important;
+}
+.keyDifferentiatSubBox2Emp {
+  min-height: 14rem !important;
+}
+.keyDifferentiatSubBox3 {
+  min-height: 10rem !important;
+}
+.keyDifferentiatSubBox3Emp {
+  min-height: 13rem !important;
+}
+.keyDifferentiatSubBox4 {
+  min-height: 14rem !important;
+  max-height: 10rem !important;
+}
+.keyDifferentiatSubBox4Emp {
+  min-height: 13rem !important;
+}
+
+@media screen and (max-width: 900px) {
+  .indicesHeadingBG{
+    min-height: 18rem;
+  }
+}

@@ -1,0 +1,133 @@
+@import "./../Variables/Variables.scss";
+.preesreleaseimg {
+  background: url(../../Images/PressRelease.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 25rem;
+}
+
+.preesreleaseheading {
+  font-weight: 700 !important;
+  font-size: 3.125rem !important;
+  color: $whiteColor;
+  line-height: 60px !important;
+  // width: 63.438rem !important;
+}
+.preesreleaseaboveheading {
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  color: $whiteColor;
+  font-style: italic !important;
+  line-height: 24px !important;
+}
+.preesreleasebelowheading {
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  color: $whiteColor;
+  font-size: 1.5rem !important;
+}
+.preesreleasedescrption {
+  color: #000 !important ;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-top: 60px !important;
+}
+.pressreleasesubheading {
+  color: #ed3125 !important;
+  font-size: 2.25rem !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  margin-top: 58px !important;
+}
+.preesreleasesubdescrption {
+  color: #000 !important;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-top: 63px !important;
+}
+.pressreleasesubheading1 {
+  color: #000;
+  margin-top: 58px !important;
+  font-size: 1.125rem !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+.pressreleaseicon {
+  width: 63.838px;
+  height: 63.838px;
+  margin: 0px 17px 0px 0px !important;
+}
+.iconcontainer {
+  margin-top: 24px !important;
+}
+
+.contactinformation {
+  color: #000;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin-top: 55px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .preesreleaseheading {
+    font-weight: 700 !important;
+    font-size: 2.125rem !important;
+    color: rgb(255, 255, 255);
+  }
+  .preesreleasedescrption {
+    color: #000 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    margin-top: 23px !important;
+  }
+  .pressreleasesubheading {
+    color: #ed3125 !important;
+    font-size: 2.25rem !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin-top: 18px !important;
+  }
+   .preesreleasesubdescrption {
+       color: #000 !important;
+       font-size: 1rem !important;
+       font-style: normal !important;
+       font-weight: 400 !important;
+       line-height: 24px !important;
+       margin-top: 63px !important;
+   }
+  .pressreleasesubheading1 {
+    color: #000;
+    margin-top: 23px !important;
+    font-size: 1.125rem !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+  .pressreleaseicon {
+    width: 39.838px;
+    height: 39.838px;
+    margin: 0px 11px 0px 0px !important;
+  }
+  .contactinformation {
+    color: #000;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    margin-top: 29px !important;
+  }
+}

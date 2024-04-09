@@ -1,0 +1,46 @@
+.DInline {
+  display: inline;
+}
+
+.Fs0-875R {
+  font-size: 0.875rem !important;
+}
+
+.checkboxSquarered {
+  float: left;
+  height: 16px;
+  width: 16px;
+  clear: both;
+  //   border: 0.5px solid #ed3c3d;
+  border: 0.5px solid blue;
+  opacity: 0.8;
+  margin-right: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.checkboxSquareblack {
+  float: left;
+  height: 16px;
+  width: 16px;
+  clear: both;
+  border: 0.5px solid #302f2f;
+  opacity: 0.8;
+  margin-right: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.checbox1BGcolRed {
+//   background-color: #ed3c3d;
+background-color: blue;
+}
+.checboxBGcolWhite {
+  background-color: white;
+}
+
+.checbox2BGcolBlack {
+  background-color: #302f2f;
+}
+
+.canvasjs-chart-toolbar {
+  display: none;
+}

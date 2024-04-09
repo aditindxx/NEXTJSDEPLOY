@@ -1,0 +1,310 @@
+@import "./../Variables/Variables.scss";
+
+.IndivisualIndexNameBanner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  //   height: 25rem;
+  height: 40vh;
+}
+
+.IndivisualIndexNameBannerText {
+  font-size: 4rem !important;
+  font-weight: 700 !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+
+.IndexText {
+  color: $blueColor;
+  font-size: 2.25rem !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  letter-spacing: -1.08px !important;
+}
+
+.IndexContainer {
+  margin-top: 3.75rem;
+}
+
+.IndexTextPara {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 1.5rem !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+  color: #000;
+}
+
+.IndexBlueBox {
+  // width: 74.41% !important;
+  background-color: $blueColor;
+  margin-top: 1.688rem !important;
+  // padding: 30px;
+}
+
+.IndexWhiteBox {
+  // width: 28.69%;
+  width: 237px;
+  border-radius: 5px;
+  background-color: $whiteColor;
+  height: 36px;
+  // margin: 32px 0px;
+}
+
+.IconClass {
+  height: 20px;
+  width: 20px;
+}
+
+.IndexIconText {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  padding-left: 10px;
+  line-height: normal !important;
+  letter-spacing: -0.48px !important;
+}
+
+.InnerIndexWhiteBox {
+  padding: 10px 8px;
+}
+
+.IndexContactBox {
+  margin-top: 2.25rem;
+}
+
+.IndexContactBoxHeading {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  color: $redColor;
+  line-height: normal !important;
+}
+
+.IndivisualBoxContactus {
+  border: 0px;
+  border-bottom: 2px solid #ed3125 !important;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.125rem !important;
+  font-weight: 300 !important;
+  width: 37.77%;
+  margin-right: 5%;
+  line-height: normal !important;
+}
+
+.IndivisualIndxxCatchpa {
+  margin-right: 5%;
+  width: 37.7%;
+}
+
+.IndivisualCookieBox {
+  color: #000;
+  margin-right: 5%;
+  width: 37.7%;
+}
+
+.IndivisualCookietext {
+  font-size: 0.75rem !important;
+  font-weight: 300 !important;
+  color: #000;
+  line-height: normal !important;
+}
+
+.IndivisualBoxContactus:focus {
+  outline: none;
+}
+
+.IndivisualBoxContactus::placeholder {
+  color: #000;
+}
+
+.IndivisualContactBoxSubmitBtn {
+  // font-family: "Inter";
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  line-height: normal !important;
+  color: $whiteColor !important;
+  height: 3.375rem !important;
+  background: $redColor !important;
+  text-transform: capitalize !important;
+  width: 37.7%;
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+.IndivisualStatisticsHeading {
+  font-size: 1.875rem !important;
+  font-weight: 600 !important;
+  color: $blueColor;
+  letter-spacing: -0.9px !important;
+  line-height: normal !important;
+}
+
+.ConstituentsHeading {
+  font-size: 1.875rem !important;
+  font-weight: 600 !important;
+  color: $blueColor;
+  line-height: normal !important;
+}
+
+.StatisticsTable {
+  margin-top: 23px;
+}
+
+.ConstituentsTable {
+  margin-top: 23px;
+}
+
+.StatisticsTableBox {
+  margin-top: 4.438rem;
+}
+
+.ConstituentsTableBox {
+  margin-top: 4.438rem;
+}
+
+.css-1wvnaxz-MuiTableCell-root.MuiTableCell-head {
+  background-color: #515151 !important;
+}
+
+// #ConstituentsTablehed{
+//     background-color: white !important;
+//     color: black !important;
+//     font-size: 14px !important;
+//     font-weight: bold;
+// }
+
+.css-1nslmh4-MuiTableCell-root.MuiTableCell-head {
+  background-color: #515151 !important;
+}
+
+.css-sofy6n.MuiTableCell-head,
+.css-sofy6n.MuiTableCell-head,
+.css-1bqy5f7.MuiTableCell-head {
+  background-color: #515151 !important;
+}
+
+.css-1enotpu-MuiTableRow-root:nth-of-type(odd),
+.css-1kxl50g:nth-of-type(2n + 1) {
+  background-color: #ccc !important;
+}
+
+// #ConstituentsTableodd{
+//     background-color: #f9f9f9 !important;
+// }
+
+.css-1enotpu-MuiTableRow-root:nth-of-type(even),
+.css-1kxl50g:nth-of-type(2n),
+.css-1kxl50g:nth-of-type(even) {
+  background-color: #eee !important;
+}
+
+.StatisticsbaseText {
+  font-size: 10px;
+  line-height: normal !important;
+}
+
+.GraphBox {
+  margin-top: 3.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0px 0px;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.PoweredByBox {
+  padding: 23px 20px;
+  border-top: 1px solid #ccc;
+}
+
+.PoweredByUpperText {
+  font-size: 0.625rem;
+  line-height: normal !important;
+}
+
+.PoweredByLowerText {
+  font-size: 0.563rem;
+  margin-top: 1rem !important;
+  line-height: normal !important;
+}
+
+.IndxxLogo {
+  width: 3rem;
+}
+
+.Tab .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  // .Tab .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected, .css-1q2h7u5.Mui-selected{
+  background-color: #ff3e3c !important;
+}
+
+.Tab .css-1aquho2-MuiTabs-indicator {
+  background-color: transparent !important;
+}
+
+.Tab {
+  border-bottom: 1px solid #ccc;
+}
+
+.TabM {
+  margin: 0.5rem 0.5rem 0rem 0.5rem !important;
+}
+.Tab .Mui-selected {
+  background-color: $redColor !important;
+  color: $whiteColor !important;
+  border-radius: 10px 10px 0px 0px !important;
+  height: 2.75rem;
+}
+.TabNonSelected {
+  background-color: $whiteColor !important;
+  color: $blackColor !important;
+  border-radius: 10px 10px 0px 0px !important;
+  margin: 0.5rem 0.5rem 0rem 0.5rem !important;
+  height: 2.75rem;
+  width: 5rem;
+}
+.TabSelected {
+  // background-color: $redColor !important;
+  background-color: $blueColor !important;
+  color: $whiteColor !important;
+  border-radius: 10px 10px 0px 0px !important;
+  width: 5rem;
+  margin: 0.5rem 0.5rem 0rem 0.5rem !important;
+  height: 2.75rem;
+}
+
+.Tab .css-ttwr4n {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .IndexWhiteBox {
+    width: 180px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .IndexContainer {
+    margin-top: 1rem !important;
+  }
+  .StatisticsTableBox {
+    margin-top: 1rem !important;
+  }
+  .IndivisualIndexNameBannerText {
+    font-size: 3rem !important;
+  }
+  .IndexWhiteBox {
+    width: 90% !important;
+    margin: 15px 0px !important;
+  }
+  .IndivisualContactBoxSubmitBtn {
+    width: 90%;
+  }
+  .IndivisualCookieBox {
+    width: 90%;
+  }
+  .IndivisualBoxContactus {
+    width: 90%;
+  }
+  .IndivisualIndxxCatchpa {
+    margin-right: 50%;
+  }
+}

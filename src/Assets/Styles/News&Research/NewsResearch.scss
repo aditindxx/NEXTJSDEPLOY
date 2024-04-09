@@ -1,0 +1,142 @@
+@import "./../Variables/Variables.scss";
+
+.newsandresearchimg {
+  background: url(../../Images/newsandresearch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 37.04vh;
+}
+
+.topHeadingPage {
+  font-weight: 700 !important;
+  font-size: 64px !important;
+  color: $whiteColor;
+  line-height: normal !important;
+}
+.topHeadingPageWithBTn {
+  font-weight: 700 !important;
+  font-size: 3.125rem !important;
+  color: $whiteColor;
+  line-height: 3.75rem !important;
+}
+
+.newsandresearchouterbox {
+  border-radius: 10px;
+}
+
+.newsandresearchreddiv {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ed3125;
+  color: white;
+  font-size: 2.25rem;
+  height: 4.375rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsandresearchtabheading {
+  border-radius: 5px !important;
+  margin: 0.625rem !important;
+}
+
+.newsandresearchtabpanel {
+  // margin: 0%;
+  // margin-right: 2%;
+  max-height: 27rem;
+  overflow-y: scroll;
+  // margin-left: 1rem;
+  margin-right: 30px;
+  margin-bottom: 1rem;
+}
+
+.tabpanelyear .MuiTab-root {
+  background-color: #616564 !important;
+  border-radius: 5px !important;
+  color: white;
+  font-size: 1.5rem;
+  min-width: 140px !important;
+  max-width: 140px !important;
+  min-height: 0px;
+  font-weight: 400 !important;
+  height: 45px;
+}
+.tabpanelyear .Mui-selected {
+  background-color: #395fd2 !important;
+  border-radius: 5px !important;
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+.tabpanelyear .MuiTabs-flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabpanelyear .MuiTabs-indicator {
+  display: none;
+}
+.tabpanelyear .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+  width: 140px !important;
+  height: 45px;
+  font-weight: 400;
+  padding: 0;
+}
+.tabpanelyear .P1 {
+  padding: 1rem 0rem 0rem 0rem;
+}
+// .tabpanelyear .tabPanelChild {
+//   // height: 65px;
+// }
+
+@media screen and (max-width: 660px) {
+  // .tabpanelyear .MuiTabs-flexContainer {
+  //   // justify-content: space-between;
+  // }
+
+  .tabpanelyear .MuiTab-root {
+    font-size: 1.25rem;
+    min-width: 90px !important;
+    max-width: 90px !important;
+    height: 40px;
+  }
+  .tabpanelyear .Mui-selected {
+    font-size: 1.25rem;
+  }
+  .newsandresearchtabpanel{
+    margin: 0 0 2% 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .newsandresearchreddiv {
+    font-size: 1.75rem !important;
+  }
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .topHeadingPage {
+    font-size: 2.5rem !important;
+  }
+  .topHeadingPageWithBTn {
+    font-size: 2.5rem !important;
+  }
+  .newsandresearchimg {
+    min-height: 18rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .newsandresearchreddiv {
+    font-size: 1.5rem !important;
+  }
+  .topHeadingPage {
+    font-size: 2.25rem !important;
+  }
+}

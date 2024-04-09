@@ -1,0 +1,71 @@
+@import "./../Variables/Variables.scss";
+
+.CookieBox {
+  background-color: $darkGreyCyan;
+  border-radius: 14px;
+  position: fixed;
+  bottom: 17px;
+  left: 15.3125%;
+  z-index: 999;
+}
+
+.CookieText {
+  color: $whiteColor;
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+.CookieTextReadMore {
+  color: $whiteColor;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 28.5px;
+}
+
+.acceptbtn {
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  letter-spacing: -0.6px !important;
+  color: $whiteColor !important;
+  background-color: $blueColor !important;
+  text-transform: capitalize !important;
+  height: 44px !important;
+  width: 152px !important;
+  border-radius: 6px !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .CookieBox {
+    left: 5%;
+  }
+  .CookieText {
+    font-size: 1.25rem;
+    line-height: normal;
+  }
+  .CookieTextReadMore {
+    font-size: 1rem;
+    line-height: normal;
+  }
+  .acceptbtn {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 660px) {
+  .CookieText {
+    font-size: 0.8rem;
+    line-height: normal;
+  }
+  .CookieTextReadMore {
+    font-size: 0.7rem;
+    line-height: normal;
+  }
+  .acceptbtn {
+    font-size: 0.7rem !important;
+    letter-spacing: -0.25px !important;
+    height: 30px !important;
+    width: 100px !important;
+    border-radius: 6px !important;
+  }
+}

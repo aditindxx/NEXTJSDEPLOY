@@ -1,0 +1,145 @@
+@import "./../Variables/Variables.scss";
+
+.cookiepolicyimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  padding-left: 15.3125% !important;
+    padding-right: 15.3125% !important; 
+}
+
+.cookiepolicyimgpara {
+  font-weight: 700 !important;
+  font-size: 4rem !important;
+  color: $whiteColor;
+  line-height: 3.75rem !important;
+}
+
+.cookiepolicyText {
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+    line-height: normal !important;
+}
+
+.curve3sides100{
+    border-radius: 100px 100px 0px 100px !important;
+}
+
+.policyImg{
+    min-width: 471px !important;
+    // height: auto !important;
+    height: 40rem !important;
+}
+
+.cookieServiceHeading{
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    line-height: normal !important;
+}
+
+.cookieServiceText{
+    font-size: 1.125rem !important;
+    text-align: center !important;
+    line-height: normal !important;
+    letter-spacing: -0.18px;
+}
+
+.ManageCookieHeading{
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    line-height: normal !important;
+}
+
+.ManageCookieText{
+    font-size: 1.125rem !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    letter-spacing: -0.18px;
+}
+
+.outerBox{
+    width: 31.5%;
+    border-radius: 6px;
+    margin-bottom: 3.5rem !important;
+}
+
+.innerBoxTop{
+    height: 243px !important;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.innerBoxBottom{
+    height: 14px !important;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.innerBoxTopHeading{
+    width: 85%;
+    font-size: 1.625rem !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
+
+.innerBoxTopText{
+    width: 85%;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+
+@media screen and (max-width: 800px) {
+    .cookiepolicyimgpara{
+        font-size: 3rem !important;
+    }
+    .cookieServiceText{
+        font-size: 1rem !important;
+    }
+    .policyImg{
+        min-width: 0px !important;
+    }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1400px){
+    .outerBox{
+        height: 300px !important;
+    }
+    .innerBoxTop{
+        height: 290px !important;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .outerBox{
+        width: 350px !important;
+    }
+    .bGColorBlue{
+        margin-top: 0rem !important;
+    }
+    .ManageingCookie{
+        padding-bottom: 0rem !important;
+        margin-top: 3rem !important;
+    }
+    .CookieWeUse{
+        margin-top: 1rem !important;
+    }
+    .PurposeOfUsingCookie{
+        margin-top: 0rem !important;
+    }
+    .ImgAndTextGap{
+        gap: 0rem !important;
+    }
+    .CookiePolicyTop{
+        margin-top: 1.5rem !important;
+    }
+    .ReuceManageCookieText{
+        font-size: 0.8rem !important;
+    }
+}
+
+

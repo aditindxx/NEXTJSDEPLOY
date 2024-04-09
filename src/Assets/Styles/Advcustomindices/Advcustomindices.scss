@@ -1,0 +1,399 @@
+@import "./../Variables/Variables.scss";
+
+.advcustomindicesbannerimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-left: 15.3125% !important;
+      padding-right: 15.3125% !important; 
+  }
+
+.advcustomindicesbannerimgheading {
+  font-style: normal !important;
+  font-weight: 900 !important;
+  line-height: normal !important;
+  font-size: 3rem !important;
+  text-shadow: 2px 2px 3px #000000;
+  color: $whiteColor;
+  margin-bottom: 1.25rem !important;
+  font-family: Inter !important;
+}
+
+.advcustomindicesbannerimgdesc {
+  font-style: normal !important;
+  line-height: normal !important;
+  font-weight: 400;
+  font-size: 1.438rem !important;
+  color: $whiteColor;
+  font-family: Inter !important;
+}
+
+.advcustomindicescount {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem !important;
+    // line-height: 5.875rem;
+    color: $whiteColor;
+    line-height: 1.813rem !important;
+  }
+  
+  .advcustomindicescountText {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    line-height: 36px !important;
+    color: $whiteColor;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesourclients{
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    color: $redColor;
+    font-family: Inter !important;
+  }
+  
+  .advcustomindicestextfieldstyle {
+    height: 50px !important;
+    outline: none !important;
+    margin-bottom: 20px !important;
+    width: 48.027% !important;
+  }
+
+  .advcustomindicestextfieldstylefull {
+    height: 120px !important;
+    outline: none !important;
+    margin-top: 26px !important;
+    width: 32% !important;
+
+  }
+
+  .advcustomindicesgetintouchcheckbox{
+    width: 30%;
+    margin-left: 5%;
+  }
+
+  .advcustomindicessendmsgBtn {
+    color: $whiteColor !important;
+    background-color: $redColor !important;
+    width: 20.027%;
+    display: block !important;
+    margin: auto !important;
+    height: 50px;
+    border-radius: 5px !important;
+    text-transform: capitalize !important;
+    font-size: 1rem !important;
+    transition: 0.4s !important;
+    font-weight: 400 !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesContactustermsofusage{
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+  }
+
+  .advcustomindicesboxtextheading{
+    font-size: 1.5rem !important;
+    font-family: Inter !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+  }
+
+  .advcustomindicesboxtextdesc{
+    font-size: 1.125rem !important;
+    line-height: normal;
+    font-weight: 400 !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesboxtext{
+    padding: 3%;
+    width: 50%;
+    height: 570px;
+  }
+
+  .advcustomindicesboximage{
+    height: 570px;
+    border-radius: 15% 0%;
+    width: 50%;
+  }
+
+  .advcustomindicesboximage2{
+    height: 570px;
+    border-radius: 15% 0% 0% 0%;
+    width: 50%;
+  }
+
+  .advcustomindicesboximage3{
+    height: 570px;
+    border-radius: 0% 0% 15% 0%;
+    width: 50%;
+  }
+
+  .advcustomindicesboximage4{
+    height: 570px;
+    border-radius: 15% 0%;
+    width: 50%;
+  }
+
+  .advcustomindicesbluebox{
+    height: 50rem;
+    background-color: $blueColor;
+  }
+
+  .advcustomindicesaboutindxx{
+    color: $whiteColor;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    margin-top: 3.75rem !important;
+    line-height: 38.4px !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesaboutimg{
+    width: 471px;
+    height: 562px;
+  }
+
+  .advcustomindicesaboutimageboxouter{
+    width: 50%;
+  }
+
+  .advcustomindicesabouttextbox{
+    width: 50%;
+  }
+
+  .advcustomindicesabouttextboxheading{
+    font-size: 2.25rem !important;
+    color: $whiteColor;
+    font-weight: bold !important;
+    line-height: 43.2px !important;
+    margin-bottom: 0.5rem !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesabouttextboxdesc{
+    font-size: 18px !important;
+    color: $whiteColor;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesquityheading{
+    font-size: 2.25rem !important;
+    font-weight: bold;
+    color: $redColor;
+  }
+
+  .advcustomindicesdevelopmentheading{
+    font-size: 2.25rem !important;
+    font-weight: bold !important;
+    color: $redColor;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesequitytext{
+    font-size: 1.125rem ;
+    margin-bottom: 60px;
+  }
+
+  .advcustomindicesdevelopmenttext{
+    font-weight: 400;
+    font-size: 1.125rem !important;
+    font-style: normal !important;
+    line-height: normal;
+    font-family: Inter !important;
+  }
+
+
+  .advcustomindicesequitybtn{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    border-radius: 8px;
+    border: 1px solid #D8D8D8;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    background: $whiteColor;
+  }
+
+  .advcustomindicesequitybtnactive{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: $whiteColor;
+    border-radius: 8px;
+    border: 1px solid #D8D8D8;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    background: $redColor;
+  }
+
+  .advcustomindicesequitydesc{
+    font-size: 1.125rem !important;
+    margin-top: 30px;
+  }
+
+  .advcustomindicesDevopmentBox{
+    background-color: #f6f6f6;
+    padding: 60px 0px;
+  }
+
+  .advcustomindicesdevelopmentOuterBox {
+    width: 48.64%;
+    height: 420px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    background-color: $whiteColor;
+  }
+
+  .advcustomindicesdevelopmentComponentInnerBoxTop {
+    height: 410px;
+  }
+
+  .advcustomindicesdevelopmentComponentInnerBoxTopHeading {
+    width: 90%;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    line-height: 28.8px !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesdevelopmentComponentInnerBoxTopText {
+    font-weight: 400;
+    width: 90%;
+    font-size: 1rem !important;
+    line-height: normal !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesdevimages{
+    margin: 5% 0% 0% 5% ;
+  }
+
+  .advcustomindicesgetintouchbtn{
+    margin: auto !important;
+    display: block !important;
+    background-color: $redColor !important;
+    color: $whiteColor !important;
+    text-transform: capitalize !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    width: 20%;
+    
+  }
+
+  .advcustomindicesfirstsection{
+    padding: 60px 0px;
+  }
+
+  .advcustomindicesfirstsectiontextbox{
+    width: 41%;
+  }
+
+  .calculationfirstsectioncontactus{
+    width: 58%;
+  }
+
+  .advcustomindicesfirstsectionheading{
+    font-size: 2.25rem !important;
+    font-weight: bold !important;
+    color: $redColor;
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important;
+    font-family: Inter !important;
+  }
+
+  .advcustomindicesfirstsectiondesc{
+    font-weight: 400;
+    font-size: 18px !important;
+    font-family: Inter !important;
+  }
+
+  @media screen and (max-width: 900px) {
+    .advcustomindicesdevelopmentComponentInnerBoxTopHeading{
+      line-height: normal !important;
+    }
+    .advcustomindicesgetintouchcheckbox{
+      width: 90%;
+    }
+    .advcustomindicestextfieldstyle{
+      width: 100% !important;
+    }
+    .getintouchinputfield {
+      width: 100%;
+    }
+    .advcustomindicestextfieldstylefull{
+      width: 100% !important;
+      margin-bottom: 1rem
+    }
+    .advcustomindicesourclients{
+      font-size: 1.25rem !important;
+      margin-top: 1rem;
+      
+    }
+    .advcustomindicesboxtextheading{
+      font-size: 1rem !important;
+      line-height: normal !important;
+    }
+    .advcustomindicesboxtextdesc{
+      font-size: 0.75rem !important;
+    }
+    .advcustomindicesaboutindxx{
+      font-size: 1.125rem !important;
+      line-height: normal !important;
+    }
+    .advcustomindicesbluebox{
+      height: 100% !important;
+    }
+    .advcustomindicesabouttextbox{
+      width: 100%;
+    }
+    .advcustomindicesabouttextboxheading{
+      font-size: 1.125rem !important;
+    }
+    .advcustomindicesabouttextboxdesc{
+      font-size: 1rem !important;
+      margin-bottom: 1rem;
+    }
+    .advcustomindicesaboutimg{
+      width: 400px;
+    }
+    .advcustomindicesquityheading{
+      font-size: 1rem !important;
+    }
+    .advcustomindicesequitytext{
+      font-size: 0.8rem;
+    }
+    .advcustomindicesequitydesc{
+      font-size: 0.75rem !important;
+      margin-bottom: 1rem;
+    }
+    .advcustomindicesgetintouchbtn{
+      width: 50%;
+    }
+    .advcustomindicesdevelopmentheading{
+      font-size: 1rem !important;
+    }
+    .advcustomindicesdevelopmenttext{
+      font-size: 0.75rem;
+    }
+    .advcustomindicesfirstsectiontextbox{
+      width: 100%;
+    }
+    .advcustomindicesbannerimgheading{
+      font-size: 2rem !important;
+    }
+    .advcustomindicescountText{
+      font-size: 1rem !important;
+    }
+    .advcustomindicesbannerimgdesc{
+      font-size: 1rem !important;
+    }
+  }

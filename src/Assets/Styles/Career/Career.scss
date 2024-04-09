@@ -1,0 +1,201 @@
+@import "./../Variables/Variables.scss";
+
+.bannerBtn {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  min-width: 11.25rem !important;
+  height: 2.813rem;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  font-size: 1.125rem !important;
+  transition: 0.4s !important;
+  letter-spacing: -0.54px !important;
+  border: 0px !important;
+  line-height: normal !important;
+}
+
+.careersBannerBG {
+  background: url(../../Images/indices.png);
+  width: 100%;
+  // min-height: 25rem;
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerBtn:hover {
+  color: $redColor !important;
+  background-color: $whiteColor !important;
+  border: 1px solid $redColor !important;
+  transition: 0.4s !important;
+}
+
+.ourWorkCultureImg {
+  max-width: 540px !important;
+  border-radius: 100px 100px 0px 100px;
+  height: auto !important;
+}
+
+.ourWorkCultureSubHead {
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  line-height: normal !important;
+  color: $blueColor;
+}
+
+.ourWorkCultureText {
+  font-weight: 400 !important;
+  font-size: 1.25rem !important;
+  line-height: normal !important;
+}
+
+.whatToExpectHeading {
+  color: $whiteColor !important;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.whatToExpectSubText {
+  color: $whiteColor !important;
+  font-size: 1.25rem !important;
+  line-height: normal !important;
+}
+.whatToExpectOuterBox {
+  width: 49%;
+  min-height: 1rem;
+}
+.whatToExpectInnerBoxBottom {
+  height: 9px !important;
+}
+.whatToExpectInnerBoxTopHeading {
+  font-size: 1.875rem !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+.whatToExpectInnerBoxText {
+  font-size: 1.25rem !important;
+  line-height: normal !important;
+  overflow-wrap: anywhere;
+}
+.awardAndRecognitionHeading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+.awardAndRecognitionSubHeading {
+  font-size: 1.625rem !important;
+  font-weight: 500 !important;
+  border-left: 4px solid $redColor;
+  line-height: normal !important;
+}
+
+.textTestimonoal {
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.lifeIndxxActive {
+  height: 15px;
+  width: 15px;
+  background-color: $redColor;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 1rem;
+  transition: width 0.3s;
+}
+
+.lifeIndxxInactive {
+  height: 15px;
+  width: 15px;
+  background-color: $blackColor;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: width 0.3s;
+}
+
+.currentOpeningImg {
+  width: 350px;
+  height: 143px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.currentOpeningOpenImg {
+  width: 350px;
+  padding: 7px;
+  height: 143px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.currentOpeningHeading {
+  font-size: 1.875rem !important;
+  font-weight: 700 !important;
+}
+
+.currentOpeningImgLayer {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 13px;
+  border: 1px solid #fff;
+  //   margin: 7px;
+}
+.currentImgLayer {
+  background: rgba(97, 101, 100, 0.6);
+}
+
+.applyNow {
+  border: 1px solid $redColor;
+  // max-width: 500px;
+}
+
+.noticeLink {
+  background-color: $redColor;
+  color: $whiteColor;
+  border-radius: 5px;
+  line-height: normal !important;
+}
+.noticeLink:hover {
+  background-color: $greyColor;
+  color: $blackColor;
+}
+.testimonialImg {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+}
+
+.carousel-container{
+  overflow: hidden !important;
+}
+
+.carousel-caption-bottom{
+  background-color: $redColor;
+  bottom: 0px !important;
+}
+
+.fade-in-image { animation: fadeIn 1s; }
+
+.thumbnails {
+  align-items: flex-start !important;
+  height: 40px !important;
+  overflow: hidden !important;
+}
+.thumbnails img{
+  height: 40px !important;
+
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (max-width: 1374px) {
+  .noticeLink {
+    height: 68px;
+  }
+}

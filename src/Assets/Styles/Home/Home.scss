@@ -1,0 +1,399 @@
+@import "./../Variables/Variables.scss";
+
+// .containerExperience {
+//   background-color: $skyBlueColor;
+//   min-height: 824px;
+// }
+
+.expCardText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: normal !important;
+  color: $whiteColor !important;
+  text-align: center;
+}
+
+.expTextBox {
+  position: relative;
+  // top: -172px;
+  z-index: 999;
+}
+
+.awardScrollable {
+  height: 370px;
+  overflow: scroll;
+}
+
+.awardScrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.awardText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: normal !important;
+  color: $whiteColor !important;
+  text-align: left;
+}
+
+.experienceBackground {
+  position: absolute;
+  line-height: 75% !important;
+  // top: 100%;
+  // top: 80%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.25vw;
+  line-height: normal;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  color: $skyBlueColor;
+  white-space: nowrap;
+  text-shadow: 0px 0 rgba(0, 0, 0, 0.12), 0px 0 rgba(0, 0, 0, 0.12),
+    0 0px rgba(0, 0, 0, 0.12), 0 0px rgba(0, 0, 0, 0.12),
+    0px 0px rgba(0, 0, 0, 0.12), 0px 0px rgba(0, 0, 0, 0.12),
+    1px -1px rgba(0, 0, 0, 0.12), -1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.count {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  // line-height: 5.875rem;
+  color: $blueColor;
+  line-height: normal !important;
+}
+
+.countText {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: normal !important;
+  color: $blackColor;
+}
+
+.expCardSubText {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: normal !important;
+  color: $whiteColor;
+}
+
+.clientIconContainer {
+  flex-flow: row wrap;
+}
+
+.clientIconContainer > * {
+  flex-basis: 20%;
+}
+
+.clientIcon {
+  height: 120px;
+  width: 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+}
+
+.businessOfferingBG {
+  margin: 0.7% 0.6%;
+  min-height: 380px;
+  width: 32%;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  object-fit: fill;
+  mix-blend-mode: multiply;
+  padding-left: 27px;
+  padding-right: 27px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.businessOfferingIcon {
+  height: 5.75rem;
+  width: 5.75rem;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  object-fit: fill;
+}
+
+.businessOfferingHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: normal !important;
+  color: $whiteColor;
+}
+
+.businessOfferingSubHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: normal !important;
+  letter-spacing: -0.72px !important;
+  color: $whiteColor;
+}
+
+.businessOfferingtext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal !important;
+  color: $whiteColor;
+}
+
+.awardBox {
+  min-height: 546px;
+  background-image: url("./../../Svgs/blueBG.svg");
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.blueBGHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: normal !important;
+  color: $whiteColor;
+}
+
+.blueCrouselBtnContainer {
+  right: 5%;
+  height: 4.5rem;
+  top: 15rem;
+}
+
+.blueCrouselBtn {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.blueCrouselBtnActive {
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.tabPanel {
+  min-height: 352px !important;
+  background-color: $skyBlueColor;
+}
+
+.css-19kzrtu {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.tab {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 22px !important;
+  line-height: normal !important;
+  text-transform: capitalize !important;
+  color: $blackColor !important;
+  height: 2.75rem;
+}
+
+.homeTabs .Mui-selected {
+  background-color: $blueColor !important;
+  color: $whiteColor !important;
+  border-radius: 10px 10px 0px 0px !important;
+  height: 2.75rem;
+}
+.tabPanelChild {
+  // height: 76px;
+  border-bottom: 2px solid #d9d9d9 !important;
+  padding-bottom: 0.7rem;
+}
+
+.tabPanelDate {
+  flex-basis: 20%;
+  color: $blueColor;
+  white-space: nowrap;
+  line-height: normal !important;
+  letter-spacing: -0.48px;
+}
+
+.tabPanelTitle {
+  // white-space: nowrap;
+  overflow: hidden;
+  // text-overflow: ellipsis;
+  flex-basis: 70%;
+  letter-spacing: -0.54px;
+}
+.tabPanelTitleNewsAndAnnouncement {
+  white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+  flex-basis: 80%;
+  white-space: wrap;
+}
+
+.tabBtn {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  width: 8.75rem;
+  height: 2.813rem;
+  font-weight: 400 !important;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-size: 1.125rem !important;
+  transition: 0.4s !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+}
+
+.tabBtnDT {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+  width: 11.25rem;
+  height: 2.813rem;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-size: 1.125rem !important;
+  transition: 0.4s !important;
+}
+
+.mapText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: normal !important;
+  color: $blackColor;
+}
+.newsInsightContainerHome {
+  gap: 2.29%;
+}
+.newsInsightImageNewsOnly {
+  background-image: url("./../../Svgs/news-and-research.svg");
+  width: 31.53%;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}
+.newsInsightImageAnnouncmentOnly {
+  background-image: url("./../../Svgs/announcement.svg");
+  width: 31.53%;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}
+.newsInsightTabPanel {
+  width: 65.76%;
+}
+
+.exploreOurService{
+  position: relative;
+  top: 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .clientIcon {
+    width: 100% !important;
+  }
+  .tabPanel {
+    flex: 1;
+  }
+  // .blueCrouselBtnContainer{
+  //   height: 100%;
+  //   width: 4.5rem;
+  // }
+}
+
+@media screen and (max-width: 900px) {
+  .businessOfferingBG {
+    width: 100%;
+  }
+  // .containerExperience {
+    // position: relative;
+    // top: -75px;
+  // }
+  // .experienceBackground{
+  //   top: -5rem;
+  // }
+  // .expTextBox{
+  // top: -222px;
+  // }
+  // .reactCountExperience{
+  //   top: -200px;
+  // }
+  // .exploreOurService{
+  //   top: -180px;
+  // }
+  .mapText {
+    font-size: 0.75rem;
+  }
+  .count {
+    font-size: 3.5rem;
+  }
+
+  .countText {
+    font-size: 1rem;
+  }
+  .expCardText {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: $whiteColor !important;
+    text-align: center;
+  }
+  .expCardSubText {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $whiteColor;
+  }
+  .blueBGHeading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .awardText {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .clientIcon {
+    width: 100px !important;
+  }
+  .tab {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    min-width: 0px !important;
+  }
+  .Mui-selected {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .tabPanel .css-19kzrtu {
+    padding: 0px !important;
+  }
+  .tabPanelDate {
+    font-size: 0.9rem !important;
+  }
+  .tabPanelChildLast {
+    border-bottom: 0px;
+    padding-bottom: 0.7rem;
+  }
+}

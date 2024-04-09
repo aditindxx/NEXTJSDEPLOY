@@ -1,0 +1,247 @@
+@import "./../Variables/Variables.scss";
+
+.carrerjobdescriptionimg {
+  background: url(../../Images/CareerJobDescription.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  // min-height: 25rem;
+  min-height: 40vh;
+}
+.topHeadingPageCareer {
+  text-align: center !important;
+  font-weight: 700 !important;
+  font-size: 50px !important;
+  color: $whiteColor;
+  line-height: 60px !important;
+}
+.bannerbutton {
+  width: 180px !important;
+  height: 45px !important;
+  border-radius: 5px !important;
+  background: #ed3125 !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  letter-spacing: -0.54px !important;
+  margin-top: 28px !important;
+}
+.belowbannertext {
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  margin-top: 17px !important;
+}
+.textColor {
+  color: #ed3125 !important;
+}
+.dynamic {
+  color: #000 !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+}
+.carrerjobContainer {
+  margin-top: 100px !important;
+}
+.heading2 {
+  color: #ed3125 !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  margin-top: 31px !important;
+}
+.heading3 {
+  color: #ed3125 !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  margin-top: 25px !important;
+}
+.heading2descr {
+  color: #000 !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  margin-top: 10px !important;
+}
+.contactformDiv {
+  border-radius: 10px !important;
+  background: #395fd2 !important;
+  box-shadow: 0px 6px 100px 0px rgba(0, 0, 0, 0.1) !important;
+  margin-top: 112px !important;
+  padding: 57px !important;
+}
+.contactformheading {
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 36px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
+
+.careerjobdescriptioninput {
+  color: white !important;
+  font-size: 22px !important;
+  line-height: normal !important;
+  letter-spacing: -0.03em !important;
+  margin-left: 0px !important;
+}
+.careerjobdescriptioninputupload {
+  color: white !important;
+  font-size: 18px !important;
+  line-height: 150% !important;
+  letter-spacing: -0.03em !important;
+  margin-left: 0px !important;
+}
+.inputBoxJobDescription {
+  border: 0px;
+  border-bottom: 2px solid white !important;
+  background-color: #395fd2;
+  color: white !important;
+  width: 94% !important;
+}
+
+.inputBoxJobDescription::placeholder {
+  color: white !important;
+  font-family: Inter !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: normal !important;
+}
+.inputBoxJobDescription:focus {
+  outline: none;
+}
+.checkboxdivcareerjob {
+  color: white !important;
+  margin-top: 35px !important;
+}
+.checkboxcareerjob {
+  color: white !important;
+}
+.checkboxcontentcareerjob {
+  color: white !important;
+}
+
+.mainformdiv {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.careerjobdescontactbutton {
+  color: #fff !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  background: #ed3125 !important;
+  width: 285.09px !important;
+  height: 53.933px !important;
+}
+
+.role p{
+  display: inline;
+}
+
+@media screen and (max-width: 900px) {
+  .topHeadingPageCareer {
+    font-size: 2.25rem !important;
+  }
+  .carrerjobContainer {
+    margin-top: 32px !important;
+  }
+  .belowbannertext {
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin-top: 17px !important;
+  }
+
+  .heading2 {
+    color: #ed3125 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin-top: 19px !important;
+  }
+  .heading3 {
+    color: #ed3125 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin-top: 25px !important;
+  }
+  .contactformDiv {
+    border-radius: 10px !important;
+    background: #395fd2 !important;
+    box-shadow: 0px 6px 100px 0px rgba(0, 0, 0, 0.1) !important;
+    margin-top: 33px !important;
+    padding: 23px 23px 0px 23px !important;
+  }
+  .mainformdiv {
+    display: block !important;
+  }
+  .careerjobdescontactbutton {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    background: #ed3125 !important;
+    width: 285.09px !important;
+    height: 53.933px !important;
+    margin-top: 20px !important;
+  }
+  .checkboxcontentcareerjob {
+    font-size: 1rem !important;
+  }
+  .checkboxdivcareerjob {
+    color: white !important;
+  }
+  .inputBoxJobDescription::placeholder {
+    color: white !important;
+    font-family: Inter !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: normal !important;
+  }
+  .careerjobdescriptioninput {
+    color: white !important;
+    line-height: 150% !important;
+    letter-spacing: -0.03em !important;
+    margin-left: 0px !important;
+  }
+  .inputBoxJobDescription {
+    border: 0px;
+    border-bottom: 2px solid white !important;
+    background-color: #395fd2;
+    color: white !important;
+    width: 100% !important;
+  }
+  .heading2descr {
+    color: #000 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    margin-top: 10px !important;
+  }
+  .dynamic {
+    color: #000 !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+  }
+}

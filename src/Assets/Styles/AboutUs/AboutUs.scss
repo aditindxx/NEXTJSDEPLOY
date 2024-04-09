@@ -1,0 +1,449 @@
+@import "./../Variables/Variables.scss";
+
+.aboutUsHeadingBG {
+  // background: url(../../Images/aboutUs.png);
+  width: 100%;
+  min-height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ikeepBox {
+  // min-height: 56rem;
+  min-height: 5rem;
+}
+
+.ikeepIconBorderBox {
+  width: 8.625rem;
+}
+.ikeepIconBorderMid {
+  min-height: 11.375rem;
+}
+.ikeepIconBorderTopBot {
+  min-height: 10.125rem;
+  background-size: contain;
+}
+.ikeepIcon {
+  height: 40px;
+  width: 40px;
+}
+
+.ikeepSubHeading {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+.indexDevProcessHeading {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+}
+
+.ikeepSubText {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 20px !important;
+  color: $blackColor !important;
+}
+.ikeepSubTextIndices {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: normal !important;
+  color: $blackColor !important;
+}
+
+.ikeepSubBox1 {
+  min-height: 10rem !important;
+}
+.ikeepSubBox1Emp {
+  min-height: 10rem !important;
+}
+.ikeepSubBox2 {
+  min-height: 10rem !important;
+}
+.ikeepSubBox2Emp {
+  min-height: 11rem !important;
+}
+.ikeepSubBox3 {
+  min-height: 10rem !important;
+}
+.ikeepSubBox3Emp {
+  min-height: 11rem !important;
+}
+.ikeepSubBox4 {
+  min-height: 10rem !important;
+}
+.ikeepSubBox4Emp {
+  min-height: 13rem !important;
+}
+.ikeepSubBox5 {
+  max-height: 10rem !important;
+  min-height: 10rem !important;
+}
+.ikeepSubBox5NoMaxHeight {
+  min-height: 10rem !important;
+}
+.ikeeoiconsMob {
+  height: 40px;
+  position: relative;
+  left: -104px;
+  top: -42px;
+}
+
+.ourAwardBox {
+  min-height: 145px;
+  border-radius: 10px;
+  background-color: $redColor;
+}
+
+.awardTabPanelBox {
+  max-height: 674px;
+}
+
+.tabPanelChild:hover .tabPanelTitleNewsAndAnnouncement, .tabPanelChild:hover .date {
+  color: $redColor !important;
+}
+.tabPanelChild {
+  // min-height: 76px;
+  border-bottom: 2px solid $greyColor !important;
+  padding-bottom: 0.7rem;
+}
+
+.awardTabPanel .css-19kzrtu {
+  max-height: 27rem;
+  overflow-y: scroll;
+}
+
+.awardTabPanelChild {
+  min-height: 65px;
+  border-bottom: 2px solid $greyColor !important;
+  padding-bottom: 0.7rem;
+}
+.awardScrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.awardTabPanel {
+  min-height: 2rem !important;
+  max-height: 29rem !important;
+}
+
+.ourPeopleImg {
+  height: 15.938rem;
+  border-radius: 20px;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  object-fit: fill;
+}
+.ourPeopleContainer {
+  border-radius: 20px;
+  min-height: 22rem;
+  width: 15.938rem;
+  background-color: $lightRed;
+  cursor: pointer;
+}
+
+.ourPeopleContainerActive {
+  border-radius: 20px;
+  min-height: 22rem;
+  width: 15.938rem;
+  cursor: pointer;
+  background-color: $blueColor;
+}
+.ourPeopleContainerActive .ourPeopleNameHeading,
+.ourPeopleContainerActive .ourPeopleDesignationText {
+  color: $whiteColor;
+}
+
+.ourPeopleContainer:hover {
+  background-color: $blueColor;
+}
+.ourPeopleContainer:hover .ourPeopleNameHeading,
+.ourPeopleContainer:hover .ourPeopleDesignationText {
+  color: $whiteColor;
+}
+
+.ourPeopleNameHeading {
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+  line-height: 1.625rem !important;
+}
+.ourPeopleDesignationText {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+}
+.ourPeopleTextBox {
+  min-height: 6rem;
+  user-select: none;
+}
+.ourPeopleSectionHeading {
+  width: 15.938rem;
+  height: 3.563rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 26px;
+  background-color: $blueColor;
+  color: $whiteColor;
+}
+.ourPeopleDescriptionBox {
+  min-height: 2rem;
+  background-color: $blueColor;
+  border-radius: 20px;
+}
+
+.ourPeopleDescriptionText {
+  font-size: 1.25rem !important;
+  color: $whiteColor !important;
+  line-height: 1.5rem;
+}
+
+.description1 {
+  width: 400% !important;
+  margin-left: 0% !important;
+}
+.description2 {
+  width: 400% !important;
+  margin-left: -100% !important;
+}
+.description3 {
+  width: 400% !important;
+  margin-left: -200% !important;
+}
+.description4 {
+  width: 400% !important;
+  margin-left: -300% !important;
+}
+.description5 {
+  width: 400% !important;
+  margin-left: 0% !important;
+}
+.description6 {
+  width: 400% !important;
+  margin-left: -100% !important;
+}
+.description7 {
+  width: 400% !important;
+  margin-left: -200% !important;
+}
+.description8 {
+  width: 400% !important;
+  margin-left: -300% !important;
+}
+.description9 {
+  width: 400% !important;
+  margin-left: 0% !important;
+}
+.description10 {
+  width: 400% !important;
+  margin-left: -100% !important;
+}
+.description11 {
+  width: 400% !important;
+  margin-left: -200% !important;
+}
+.description12 {
+  width: 400% !important;
+  margin-left: -300% !important;
+}
+
+.linkedInLogoBox {
+  border-radius: 5px;
+  background-color: $whiteColor;
+  height: 50px;
+  width: 50px;
+}
+.ourPeopleNameAndPosition {
+  background-color: $redColor;
+  color: $whiteColor;
+  width: 31.53%;
+  min-height: 5rem;
+}
+
+.ourPeopleNameAndPosition .name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 26px;
+}
+// .ourPeopleContainerOuter{
+  
+  // }
+  
+.ourPeopleNameAndPosition .position{
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+.topHeadingPageAboutUs {
+  font-weight: 700 !important;
+  font-size: 58px !important;
+  color: $whiteColor !important;
+  line-height: 60px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutUsHeadingBG{
+    min-height: 18rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .ourPeopleNameAndPosition {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 1535px) {
+  .description1 {
+    width: 300% !important;
+    margin-left: 0% !important;
+  }
+  .description2 {
+    width: 300% !important;
+    margin-left: -100% !important;
+  }
+  .description3 {
+    width: 300% !important;
+    margin-left: -200% !important;
+  }
+  .description4 {
+    width: 300% !important;
+    margin-left: 0% !important;
+  }
+  .description5 {
+    width: 300% !important;
+    margin-left: -100% !important;
+  }
+  .description6 {
+    width: 300% !important;
+    margin-left: -200% !important;
+  }
+  .description7 {
+    width: 300% !important;
+    margin-left: 0% !important;
+  }
+  .description8 {
+    width: 300% !important;
+    margin-left: -100% !important;
+  }
+  .description9 {
+    width: 300% !important;
+    margin-left: -200% !important;
+  }
+  .description10 {
+    width: 300% !important;
+    margin-left: 0% !important;
+  }
+  .description11 {
+    width: 300% !important;
+    margin-left: -100% !important;
+  }
+  .description12 {
+    width: 300% !important;
+    margin-left: -200% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .description1 {
+    width: 200% !important;
+    margin-left: 0% !important;
+  }
+  .description2 {
+    width: 200% !important;
+    margin-left: -100% !important;
+  }
+  .description3 {
+    width: 200% !important;
+    margin-left: 0% !important;
+  }
+  .description4 {
+    width: 200% !important;
+    margin-left: -100% !important;
+  }
+  .description5 {
+    width: 200% !important;
+    margin-left: 0% !important;
+  }
+  .description6 {
+    width: 200% !important;
+    margin-left: -100% !important;
+  }
+  .description7 {
+    width: 200% !important;
+    margin-left: 0% !important;
+  }
+  .description8 {
+    width: 200% !important;
+    margin-left: -100% !important;
+  }
+  .description9 {
+    width: 200% !important;
+    margin-left: 0% !important;
+  }
+  .description10 {
+    width: 200% !important;
+    margin-left: -100% !important;
+  }
+  .description11 {
+    width: 200% !important;
+    margin-left: 0% !important;
+  }
+  .description12 {
+    width: 200% !important;
+    margin-left: -100% !important;
+  }
+}
+@media screen and (max-width: 599px) {
+  .description1 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description2 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description3 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description4 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description5 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description6 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description7 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description8 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description9 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description10 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description11 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .description12 {
+    width: 150% !important;
+    margin-left: -25% !important;
+  }
+  .ourPeopleDescriptionText{
+    font-size: 1rem !important;
+  }
+}
